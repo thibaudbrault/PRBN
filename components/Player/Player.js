@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import musics from '../../helpers/musics.json';
-import { Main } from './Styled.Player';
+import { Main, Time } from './Styled.Player';
 
 import {TbPlayerPlay, TbPlayerPause, TbPlayerSkipBack, TbPlayerSkipForward} from 'react-icons/tb';
 
@@ -14,11 +14,11 @@ export default function Player() {
 
     return (
         <Main>
-            <div>
+            <Time>
                 <p>0:00</p>
                 <input type="range" />
                 <p>2:50</p>
-            </div>
+            </Time>
             <div>
                 <audio src={musics[0].link} preload='metadata'></audio>
                 <button title='Back 10 seconds'><TbPlayerSkipBack /></button>

@@ -1,11 +1,11 @@
 import React from 'react'
-import { H1, Head } from './Styled.Header'
+import { H1, H2, Head } from './Styled.Header'
 
 export default function Header() {
   return (
     <Head>
         <H1>PRBN</H1>
-        <h2>Pokémon Radio Broadcasting Network</h2>
+        <H2>Pokémon Radio Broadcasting Network</H2>
     </Head>
   )
 }

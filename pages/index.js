@@ -6,7 +6,10 @@ import Player from '../components/Player/Player';
 import Footer from '../components/Footer/Footer';
 
 const Layout = styled.div`
-  margin: 2.5%;
+  width: 95%;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
 `;
 
 export default function Home() {

@@ -28,7 +28,11 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     html {
+        color: #DDDDDD;
+        background: #151515;
         font-size: 10px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
         cursor: default;
         scroll-behavior: smooth;
     }
