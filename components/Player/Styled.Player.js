@@ -119,6 +119,11 @@ export const MoveButton = styled.button`
 	border: none;
 	font-size: 3rem;
 	color: ${({ theme }) => theme.light};
+    transition: 0.3s ease-in-out;
+
+    &:active {
+        transform: scale(1.1);
+    }
 `
 
 export const PlayButton = styled.button`

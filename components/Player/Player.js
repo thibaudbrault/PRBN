@@ -124,7 +124,7 @@ export default function Player() {
 					<MoveButton title='Loop'>
 						<TiArrowLoop />
 					</MoveButton>
-					<MoveButton onClick={previous} title='Previous track'>
+					<MoveButton title='Previous track' onClick={previous}>
 						<TbPlayerTrackPrev />
 					</MoveButton>
 					<MoveButton title='Back 10 seconds' onClick={backward}>
@@ -136,7 +136,7 @@ export default function Player() {
 					<MoveButton title='Forward 10 seconds' onClick={forward}>
 						<TbPlayerSkipForward />
 					</MoveButton>
-					<MoveButton onClick={next} title='Next track'>
+					<MoveButton title='Next track' onClick={next}>
 						<TbPlayerTrackNext />
 					</MoveButton>
 					<MoveButton title='Shuffle'>
