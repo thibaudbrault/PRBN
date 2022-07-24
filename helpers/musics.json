@@ -1,32 +1,254 @@
 [
-    {
-        "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/juvwzxotef/01%20Opening%20Movie%20%28Red%2C%20Green%20%26%20Blue%20Version%29.mp3",
-        "name": "Opening Movie",
-        "game": "Red / Blue / Yellow",
-        "id": "1"
-    },
-    {
-        "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ncplxpiydy/03%20Title%20Screen.mp3",
-        "name": "Title Screen",
-        "game": "Red / Blue / Yellow",
-        "id": "2"
-    },
-    {
-        "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/lnoaxnzruq/04%20Pallet%20Town.mp3",
-        "name": "Pallet Town",
-        "game": "Red / Blue / Yellow",
-        "id": "3"
-    },
-    {
-        "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/uwfadsnwqq/05%20Professor%20Oak.mp3",
-        "name": "Proffesor Oak",
-        "game": "Red / Blue / Yellow",
-        "id": "4"
-    },
-    {
-        "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/wnmgjiodnz/06%20Hurry%20Along.mp3",
-        "name": "Hurry Along",
-        "game": "Red / Blue / Yellow",
-        "id": "5"
-    }
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/juvwzxotef/01%20Opening%20Movie%20%28Red%2C%20Green%20%26%20Blue%20Version%29.mp3",
+		"name": "Opening Movie",
+		"game": "Red / Blue / Yellow",
+		"tag": "opening movie",
+		"id": "1"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ncplxpiydy/03%20Title%20Screen.mp3",
+		"name": "Title Screen",
+		"game": "Red / Blue / Yellow",
+		"tag": "opening",
+		"id": "2"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/lnoaxnzruq/04%20Pallet%20Town.mp3",
+		"name": "Pallet Town",
+		"game": "Red / Blue / Yellow",
+		"tag": "city",
+		"id": "3"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/uwfadsnwqq/05%20Professor%20Oak.mp3",
+		"name": "Proffesor Oak",
+		"game": "Red / Blue / Yellow",
+		"tag": "character",
+		"id": "4"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/wnmgjiodnz/06%20Hurry%20Along.mp3",
+		"name": "Hurry Along",
+		"game": "Red / Blue / Yellow",
+		"tag": "misc",
+		"id": "5"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/yseorvjrey/07%20Oak%20Poke%CC%81mon%20Research%20Lab.mp3",
+		"name": "Oak Pokémon Research Lab",
+		"game": "Red / Blue / Yellow",
+		"tag": "house",
+		"id": "6"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/jiotrevpbb/08%20Fanfare%20Poke%CC%81mon%20Obtained.mp3",
+		"name": "Pokémon Obtained",
+		"game": "Red / Blue / Yellow",
+		"tag": "fanfare",
+		"id": "7"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/lfakpvxalk/10%20Battle%21%20%28Trainer%20Battle%29.mp3",
+		"name": "Battle : Trainer Battle",
+		"game": "Red / Blue / Yellow",
+		"tag": "battle",
+		"id": "8"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ldxsdtgipv/11%20Fanfare%20Level%20Up.mp3",
+		"name": "Level Up",
+		"game": "Red / Blue / Yellow",
+		"tag": "fanfare",
+		"id": "9"
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Red / Blue / Yellow",
+		"tag": "",
+		"id": ""
+	}
 ]

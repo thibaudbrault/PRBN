@@ -1,10 +1,10 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 export const theme = {
-    light: '#DDDDDD',
-    dark: '#151515',
-    lato: `'Lato', sans-serif`,
-    wendy: `'Wendy One', sans-serif`
+	light: '#DDDDDD',
+	dark: '#151515',
+	lato: `'Lato', sans-serif`,
+	wendy: `'Wendy One', sans-serif`,
 }
 
 export const GlobalStyles = createGlobalStyle`
@@ -99,4 +99,4 @@ export const GlobalStyles = createGlobalStyle`
             font-size: 7px;
         }
     }
-`;
+`

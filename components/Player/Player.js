@@ -1,80 +1,144 @@
-import React, { useState, useEffect, useRef } from 'react';
-import musics from '../../helpers/musics.json';
-import { AudioContainer, Main, MoveButton, PlayButton, ProgressBar, Time } from './Styled.Player';
+import React, { useState, useEffect, useRef, useCallback } from 'react'
+import musics from '../../helpers/musics.json'
+import {
+	AudioContainer,
+	Main,
+	MoveButton,
+	PlayButton,
+	ProgressBar,
+	Time,
+} from './Styled.Player'
 
-import {TbPlayerPlay, TbPlayerPause, TbPlayerSkipBack, TbPlayerSkipForward, TbPlayerTrackPrev, TbPlayerTrackNext} from 'react-icons/tb';
+import {
+	TbPlayerPlay,
+	TbPlayerPause,
+	TbPlayerSkipBack,
+	TbPlayerSkipForward,
+	TbPlayerTrackPrev,
+	TbPlayerTrackNext,
+	TbArrowsShuffle2,
+} from 'react-icons/tb'
 
-import Info from './Info/Info';
+import Info from './Info/Info'
 
 export default function Player() {
+	const [isPlaying, setIsPlaying] = useState(false)
+	let [curTrack, setCurTrack] = useState(0)
+	const [duration, setDuration] = useState(0)
+	const [curTime, setCurTime] = useState(0)
 
-    const[isPlaying, setIsPlaying] = useState(false);
-    let [curTrack, setCurTrack] = useState(0);
-    const [duration, setDuration] = useState(0);
+	const audio = useRef()
+	const progressBar = useRef()
+	const animationRef = useRef()
 
-    const audio = useRef();
+	useEffect(() => {
+		const seconds = Math.floor(audio?.current?.duration)
+		setDuration(seconds)
+		progressBar.current.max = seconds
+	}, [audio?.current?.loadedmetadata, audio?.current?.readyState])
 
-    useEffect(() => {
-        const seconds = Math.floor(audio?.current?.duration);
-        setDuration(seconds);
-        // progressBar.current.max = seconds;
-    }, [audio?.current?.loadedmetadata, audio?.current?.readyState]);
-    
-    const calculateTime = (secs) => {
-        const minutes = Math.floor(secs / 60);
-        const seconds = Math.floor(secs % 60);
-        const returnedSeconds = seconds < 10 ? `0${seconds}` : `${seconds}`;
+	const calculateTime = (secs) => {
+		const minutes = Math.floor(secs / 60)
+		const seconds = Math.floor(secs % 60)
+		const returnedSeconds = seconds < 10 ? `0${seconds}` : `${seconds}`
 
-        return `${minutes}:${returnedSeconds}`;
-    }
+		return `${minutes}:${returnedSeconds}`
+	}
 
-    const togglePlayPause = () => {
-        setIsPlaying(!isPlaying);
-        if(isPlaying) {
-            audio.current.pause()
-        } else {
-            audio.current.play()
-        }
-    }
+	const changeRange = () => {
+		audio.current.currentTime = progressBar.current.value
+		setCurTime(progressBar.current.value)
+	}
 
-    const previous = () => {
-        if(curTrack === 0) {
-            setCurTrack(curTrack)
-        } else {
-            setCurTrack(curTrack - 1)
-            setIsPlaying(false)
-        }
-    }
+	const togglePlayPause = () => {
+		setIsPlaying(!isPlaying)
+		if (isPlaying) {
+			audio.current.pause()
+			cancelAnimationFrame(animationRef.current)
+		} else {
+			audio.current.play()
+			animationRef.current = requestAnimationFrame(rangeDot)
+		}
+	}
 
-    const next = () => {
-        setCurTrack(curTrack + 1);
-        setIsPlaying(false);
-    }
+	const rangeDot = useCallback(() => {
+		progressBar.current.value = audio.current.currentTime
+		setCurTime(progressBar.current.value)
+		animationRef.current = requestAnimationFrame(rangeDot)
+	}, [])
 
-    return (
-        <Main>
-            <Info musics={musics} curTrack={curTrack} />
-            <section>
-                <Time>
-                    <p>0:00</p>
-                    <ProgressBar type="range" />
-                    <p>{(duration && !isNaN(duration)) && calculateTime(duration)}</p>
-                </Time>
-                <AudioContainer>
-                    <audio ref={audio} src={musics?.[curTrack]?.link} preload='metadata'></audio>
-                    <MoveButton onClick={previous} title='Previous track'><TbPlayerTrackPrev /></MoveButton>
-                    <MoveButton title='Back 10 seconds'><TbPlayerSkipBack /></MoveButton>
-                    <PlayButton onClick={togglePlayPause}>
-                        {isPlaying ? (
-                            <TbPlayerPause />
-                        ) : (
-                            <TbPlayerPlay />
-                        )}
-                    </PlayButton>
-                    <MoveButton title='Forward 10 seconds'><TbPlayerSkipForward /></MoveButton>
-                    <MoveButton onClick={next} title='Next track'><TbPlayerTrackNext /></MoveButton>
-                </AudioContainer>
-            </section>
-        </Main>
-    )
+	const previous = () => {
+		if (curTrack === 0) {
+			setCurTrack(curTrack)
+		} else {
+			setCurTrack(curTrack - 1)
+			setIsPlaying(false)
+			rangeDot()
+		}
+	}
+
+	const backward = () => {
+		progressBar.current.value = Number(progressBar.current.value - 10)
+		changeRange()
+	}
+
+	const forward = () => {
+		progressBar.current.value = Number(progressBar.current.value + 10)
+		changeRange()
+	}
+
+	const next = useCallback(() => {
+		setCurTrack(curTrack + 1)
+		setIsPlaying(false)
+		rangeDot()
+	}, [curTrack, rangeDot])
+
+	useEffect(() => {
+		if (curTime == duration) {
+			next()
+		}
+	}, [curTime, duration, next])
+
+	return (
+		<Main>
+			<Info musics={musics} curTrack={curTrack} />
+			<section>
+				<Time>
+					<p>{calculateTime(curTime)}</p>
+					<ProgressBar
+						ref={progressBar}
+						type='range'
+						defaultValue={0}
+						onChange={changeRange}
+					/>
+					<p>{duration && !isNaN(duration) && calculateTime(duration)}</p>
+				</Time>
+				<AudioContainer>
+					<audio
+						ref={audio}
+						src={musics?.[curTrack]?.link}
+						preload='metadata'
+					></audio>
+					<MoveButton onClick={previous} title='Previous track'>
+						<TbPlayerTrackPrev />
+					</MoveButton>
+					<MoveButton title='Back 10 seconds' onClick={backward}>
+						<TbPlayerSkipBack />
+					</MoveButton>
+					<PlayButton onClick={togglePlayPause}>
+						{isPlaying ? <TbPlayerPause /> : <TbPlayerPlay />}
+					</PlayButton>
+					<MoveButton title='Forward 10 seconds' onClick={forward}>
+						<TbPlayerSkipForward />
+					</MoveButton>
+					<MoveButton onClick={next} title='Next track'>
+						<TbPlayerTrackNext />
+					</MoveButton>
+					<MoveButton title='Shuffle'>
+						<TbArrowsShuffle2 />
+					</MoveButton>
+				</AudioContainer>
+			</section>
+		</Main>
+	)
 }
