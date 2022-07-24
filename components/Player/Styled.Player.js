@@ -107,7 +107,7 @@ export const ProgressBar = styled.input`
     }
 `;
 
-export const Audio = styled.div`
+export const AudioContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
