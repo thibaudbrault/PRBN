@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import musics from '../../helpers/musics.json';
-import { Main, Time } from './Styled.Player';
+import { Audio, Main, MoveButton, PlayButton, ProgressBar, Time } from './Styled.Player';
 
-import {TbPlayerPlay, TbPlayerPause, TbPlayerSkipBack, TbPlayerSkipForward} from 'react-icons/tb';
+import {TbPlayerPlay, TbPlayerPause, TbPlayerSkipBack, TbPlayerSkipForward, TbPlayerTrackPrev, TbPlayerTrackNext} from 'react-icons/tb';
 
 export default function Player() {
 
@@ -16,21 +16,23 @@ export default function Player() {
         <Main>
             <Time>
                 <p>0:00</p>
-                <input type="range" />
+                <ProgressBar type="range" />
                 <p>2:50</p>
             </Time>
-            <div>
+            <Audio>
                 <audio src={musics[0].link} preload='metadata'></audio>
-                <button title='Back 10 seconds'><TbPlayerSkipBack /></button>
-                <button onClick={togglePlayPause}>
+                <MoveButton title='Previous track'><TbPlayerTrackPrev /></MoveButton>
+                <MoveButton title='Back 10 seconds'><TbPlayerSkipBack /></MoveButton>
+                <PlayButton onClick={togglePlayPause}>
                     {isPlaying ? (
                         <TbPlayerPause />
                     ) : (
                         <TbPlayerPlay />
                     )}
-                </button>
-                <button title='Forward 10 seconds'><TbPlayerSkipForward /></button>
-            </div>
+                </PlayButton>
+                <MoveButton title='Forward 10 seconds'><TbPlayerSkipForward /></MoveButton>
+                <MoveButton title='Next track'><TbPlayerTrackNext /></MoveButton>
+            </Audio>
         </Main>
     )
 }

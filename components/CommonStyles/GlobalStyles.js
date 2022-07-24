@@ -1,5 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
+export const theme = {
+    light: '#DDDDDD',
+    dark: '#151515',
+    lato: `'Lato', sans-serif`,
+    wendy: `'Wendy One', sans-serif`
+}
+
 export const GlobalStyles = createGlobalStyle`
 
     * {
@@ -28,10 +35,10 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     html {
-        color: #DDDDDD;
-        background: #151515;
+        color: ${({ theme }) => theme.light};
+        background: ${({ theme }) => theme.dark};
         font-size: 10px;
-        font-family: 'Lato', sans-serif;
+        font-family: ${({ theme }) => theme.lato};
         font-weight: 300;
         cursor: default;
         scroll-behavior: smooth;
