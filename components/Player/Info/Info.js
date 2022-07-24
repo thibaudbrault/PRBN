@@ -1,13 +1,12 @@
 import React from 'react';
+import { H2 } from '../../Header/Styled.Header';
+import { H3, InfoSection } from './Styled.Info';
 
 export default function Info({ musics, curTrack }) {
-
-    console.log(musics)
-
     return (
-        <div>
-            <h2>{musics?.[curTrack]?.name}</h2>
-            <h3>{musics?.[curTrack]?.game}</h3>
-        </div>
+        <InfoSection>
+            <H2>{musics?.[curTrack]?.name}</H2>
+            <H3>{musics?.[curTrack]?.game}</H3>
+        </InfoSection>
     )
 }

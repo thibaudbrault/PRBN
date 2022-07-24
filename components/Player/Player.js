@@ -15,18 +15,17 @@ export default function Player() {
     const audio = useRef();
 
     useEffect(() => {
-        const seconds = Math.floor(audio.current.duration);
+        const seconds = Math.floor(audio?.current?.duration);
         setDuration(seconds);
         // progressBar.current.max = seconds;
     }, [audio?.current?.loadedmetadata, audio?.current?.readyState]);
     
     const calculateTime = (secs) => {
         const minutes = Math.floor(secs / 60);
-        const returnedMinutes = minutes < 10 ? `0${minutes}` : `${minutes}`;
         const seconds = Math.floor(secs % 60);
         const returnedSeconds = seconds < 10 ? `0${seconds}` : `${seconds}`;
-        
-        return `${returnedMinutes}:${returnedSeconds}`;
+
+        return `${minutes}:${returnedSeconds}`;
     }
 
     const togglePlayPause = () => {
@@ -43,37 +42,39 @@ export default function Player() {
             setCurTrack(curTrack)
         } else {
             setCurTrack(curTrack - 1)
-            setIsPlaying(!isPlaying)
+            setIsPlaying(false)
         }
     }
 
     const next = () => {
         setCurTrack(curTrack + 1);
-        setIsPlaying(!isPlaying);
+        setIsPlaying(false);
     }
 
     return (
         <Main>
             <Info musics={musics} curTrack={curTrack} />
-            <Time>
-                <p>0:00</p>
-                <ProgressBar type="range" />
-                <p>{duration}</p>
-            </Time>
-            <AudioContainer>
-                <audio ref={audio} src={musics?.[curTrack]?.link} preload='metadata'></audio>
-                <MoveButton onClick={previous} title='Previous track'><TbPlayerTrackPrev /></MoveButton>
-                <MoveButton title='Back 10 seconds'><TbPlayerSkipBack /></MoveButton>
-                <PlayButton onClick={togglePlayPause}>
-                    {isPlaying ? (
-                        <TbPlayerPause />
-                    ) : (
-                        <TbPlayerPlay />
-                    )}
-                </PlayButton>
-                <MoveButton title='Forward 10 seconds'><TbPlayerSkipForward /></MoveButton>
-                <MoveButton onClick={next} title='Next track'><TbPlayerTrackNext /></MoveButton>
-            </AudioContainer>
+            <section>
+                <Time>
+                    <p>0:00</p>
+                    <ProgressBar type="range" />
+                    <p>{(duration && !isNaN(duration)) && calculateTime(duration)}</p>
+                </Time>
+                <AudioContainer>
+                    <audio ref={audio} src={musics?.[curTrack]?.link} preload='metadata'></audio>
+                    <MoveButton onClick={previous} title='Previous track'><TbPlayerTrackPrev /></MoveButton>
+                    <MoveButton title='Back 10 seconds'><TbPlayerSkipBack /></MoveButton>
+                    <PlayButton onClick={togglePlayPause}>
+                        {isPlaying ? (
+                            <TbPlayerPause />
+                        ) : (
+                            <TbPlayerPlay />
+                        )}
+                    </PlayButton>
+                    <MoveButton title='Forward 10 seconds'><TbPlayerSkipForward /></MoveButton>
+                    <MoveButton onClick={next} title='Next track'><TbPlayerTrackNext /></MoveButton>
+                </AudioContainer>
+            </section>
         </Main>
     )
 }

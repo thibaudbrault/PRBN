@@ -2,31 +2,31 @@
     {
         "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/juvwzxotef/01%20Opening%20Movie%20%28Red%2C%20Green%20%26%20Blue%20Version%29.mp3",
         "name": "Opening Movie",
-        "game": "Red / Blue",
+        "game": "Red / Blue / Yellow",
         "id": "1"
     },
     {
         "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ncplxpiydy/03%20Title%20Screen.mp3",
         "name": "Title Screen",
-        "game": "Red / Blue",
+        "game": "Red / Blue / Yellow",
         "id": "2"
     },
     {
         "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/lnoaxnzruq/04%20Pallet%20Town.mp3",
         "name": "Pallet Town",
-        "game": "Red / Blue",
+        "game": "Red / Blue / Yellow",
         "id": "3"
     },
     {
         "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/uwfadsnwqq/05%20Professor%20Oak.mp3",
         "name": "Proffesor Oak",
-        "game": "Red / Blue",
+        "game": "Red / Blue / Yellow",
         "id": "4"
     },
     {
-        "link": "",
-        "name": "",
-        "game": "",
+        "link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/wnmgjiodnz/06%20Hurry%20Along.mp3",
+        "name": "Hurry Along",
+        "game": "Red / Blue / Yellow",
         "id": "5"
     }
 ]

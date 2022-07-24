@@ -9,7 +9,9 @@ export const Head = styled.header`
 `;
 
 export const H1 = styled.h1`
+    margin-bottom: 2rem;
     font-size: 5rem;
+    letter-spacing: 0.5rem;
 `;
 
 export const H2 = styled.h2`
