@@ -19,6 +19,8 @@ import {
 	TbArrowsShuffle2,
 } from 'react-icons/tb'
 
+import { TiArrowLoop } from 'react-icons/ti'
+
 import Info from './Info/Info'
 
 export default function Player() {
@@ -119,6 +121,9 @@ export default function Player() {
 						src={musics?.[curTrack]?.link}
 						preload='metadata'
 					></audio>
+					<MoveButton title='Loop'>
+						<TiArrowLoop />
+					</MoveButton>
 					<MoveButton onClick={previous} title='Previous track'>
 						<TbPlayerTrackPrev />
 					</MoveButton>
