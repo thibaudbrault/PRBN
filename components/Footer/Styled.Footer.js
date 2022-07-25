@@ -10,7 +10,7 @@ export const Foot = styled.footer`
 	}
 
 	& h4 {
-		font-size: 2rem;
+		font-size: 2.5rem;
 		font-weight: 700;
 		letter-spacing: 0.5rem;
 	}

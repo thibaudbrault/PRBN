@@ -80,19 +80,23 @@ export default function Player() {
 	}
 
 	const backward = () => {
-		progressBar.current.value = Number(progressBar.current.value - 10)
+		progressBar.current.value = Number(progressBar.current.value -= 10)
 		changeRange()
 	}
 
 	const forward = () => {
-		progressBar.current.value = Number(progressBar.current.value + 10)
+		progressBar.current.value = Number(progressBar.current.value += 10)
 		changeRange()
 	}
 
 	const next = useCallback(() => {
-		setCurTrack(curTrack + 1)
-		setIsPlaying(false)
-		rangeDot()
+		if(musics?.[curTrack]?.id == musics.length) {
+			setCurTrack(curTrack)
+		} else {
+			setCurTrack(curTrack + 1)
+			setIsPlaying(false)
+			rangeDot()
+		}
 	}, [curTrack, rangeDot])
 
 	useEffect(() => {

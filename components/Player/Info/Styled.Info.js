@@ -16,6 +16,7 @@ export const Cover = styled(Image)`
 
 export const InfoH2 = styled(H2)`
 	margin-top: 2rem;
+	text-transform: capitalize;
 `
 
 export const H3 = styled.h3`
