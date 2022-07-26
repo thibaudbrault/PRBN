@@ -397,5 +397,104 @@
 		"game": "Yellow",
 		"tag": "misc",
 		"id": "57"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-gb/kcutlnxg/01_Pokemon%20GS%20Intro%201.mp3",
+		"name": "Gold Silver Intro 1",
+		"game": "Gold / Silver / Crystal",
+		"tag": "opening",
+		"id": "58"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-gb/flcnwvvf/02_Pokemon%20GS%20Intro%202.mp3",
+		"name": "Gold Silver Intro 2",
+		"game": "Gold / Silver / Crystal",
+		"tag": "opening",
+		"id": "59"
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Gold / Silver / Crystal",
+		"tag": "",
+		"id": ""
 	}
 ]

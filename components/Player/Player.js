@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
-import musics from '../../helpers/musics.json'
+import musics from '/helpers/musics.json'
 import {
 	AudioContainer,
 	Main,
