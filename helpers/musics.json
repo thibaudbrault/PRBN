@@ -49,206 +49,353 @@
 		"id": "7"
 	},
 	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/pppjzmlroq/09%20A%20Rival%20Appears.mp3",
+		"name": "A Rival Appears",
+		"game": "Red / Blue / Yellow",
+		"tag": "battle",
+		"id": "8"
+	},
+	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/lfakpvxalk/10%20Battle%21%20%28Trainer%20Battle%29.mp3",
 		"name": "Battle : Trainer Battle",
 		"game": "Red / Blue / Yellow",
 		"tag": "battle",
-		"id": "8"
+		"id": "9"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ldxsdtgipv/11%20Fanfare%20Level%20Up.mp3",
 		"name": "Level Up",
 		"game": "Red / Blue / Yellow",
 		"tag": "fanfare",
-		"id": "9"
+		"id": "10"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ecwbedzmys/12%20Victory%21%20%28Trainer%20Battle%29.mp3",
 		"name": "Victory : Trainer Battle",
 		"game": "Red / Blue / Yellow",
 		"tag": "battle",
-		"id": "10"
+		"id": "11"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ilqgmmwzfl/13%20Route%201.mp3",
 		"name": "Road 1",
 		"game": "Red / Blue / Yellow",
 		"tag": "road",
-		"id": "11"
+		"id": "12"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/mbvahztywh/14%20Battle%21%20%28Wild%20Pok%C3%A9mon%29.mp3",
 		"name": "Battle : Wild Pokémon",
 		"game": "Red / Blue / Yellow",
 		"tag": "battle",
-		"id": "12"
+		"id": "13"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/cigcrtbrsw/15%20Victory%21%20%28Wild%20Pok%C3%A9mon%29.mp3",
 		"name": "Victory : Wild Pokémon",
 		"game": "Red / Blue / Yellow",
 		"tag": "battle",
-		"id": "13"
+		"id": "14"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/cgmxcnfsmq/16%20Fanfare%20Item%20Obtained.mp3",
 		"name": "Item Obtained",
 		"game": "Red / Blue / Yellow",
 		"tag": "fanfare",
-		"id": "14"
+		"id": "15"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/zgohykasxp/17%20Viridian%20City.mp3",
 		"name": "Viridian City",
 		"game": "Red / Blue / Yellow",
 		"tag": "city",
-		"id": "15"
+		"id": "16"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/cuzoyubbaq/18%20Pok%C3%A9mon%20Center.mp3",
 		"name": "Pokémon Center",
 		"game": "Red / Blue / Yellow",
 		"tag": "house",
-		"id": "16"
+		"id": "17"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/kmopsiajzw/19%20Pok%C3%A9mon%20Healed.mp3",
 		"name": "Pokémon Healed",
 		"game": "Red / Blue / Yellow",
 		"tag": "fanfare",
-		"id": "17"
+		"id": "18"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/bhrjdugjcz/20%20Fanfare%20Pok%C3%A9mon%20Caught.mp3",
 		"name": "Pokémon Caught",
 		"game": "Red / Blue / Yellow",
 		"tag": "fanfare",
-		"id": "18"
+		"id": "19"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/jdjxqwkzvy/21%20Fanfare%20Trade%20Pok%C3%A9mon%20Received.mp3",
 		"name": "Trade pokémon",
 		"game": "Red / Blue / Yellow",
 		"tag": "fanfare",
-		"id": "19"
+		"id": "20"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/spwofxkyfi/22%20Viridian%20Forest.mp3",
 		"name": "Viridian Forest",
 		"game": "Red / Blue / Yellow",
 		"tag": "road",
-		"id": "20"
+		"id": "21"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/xssnynizqx/23%20A%20Trainer%20Appears%20%28Boy%20Version%29.mp3",
 		"name": "A Trainer Appears : Boy Version",
 		"game": "Red / Blue / Yellow",
 		"tag": "battle",
-		"id": "21"
+		"id": "22"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ysdbjacitf/24%20Jigglypuff%27s%20Song.mp3",
 		"name": "Jigglypuff Song",
 		"game": "Red / Blue / Yellow",
 		"tag": "misc",
-		"id": "22"
+		"id": "23"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ijdrhlzddm/25%20Fanfare%20Professor%20Oak%27s%20Evaluation.mp3",
 		"name": "Professor Oak's Evaluation",
 		"game": "Red / Blue / Yellow",
 		"tag": "fanfare",
-		"id": "23"
+		"id": "24"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/jegqrwrlml/26%20Evolution.mp3",
 		"name": "Evolution",
 		"game": "Red / Blue / Yellow",
 		"tag": "fanfare",
-		"id": "24"
+		"id": "25"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ecilyrmhjf/27%20Pok%C3%A9mon%20Gym.mp3",
 		"name": "Pokémon Gym",
 		"game": "Red / Blue / Yellow",
 		"tag": "house",
-		"id": "25"
+		"id": "26"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ppdgehuibt/28%20Battle%21%20%28Gym%20Leader%20Battle%29.mp3",
 		"name": "Battle : Gym Leader",
 		"game": "Red / Blue / Yellow",
 		"tag": "battle",
-		"id": "26"
+		"id": "27"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/yfbxshzbdz/29%20Victory%21%20%28Gym%20Leader%20Battle%29.mp3",
 		"name": "Victory : Gym Leader",
 		"game": "Red / Blue / Yellow",
 		"tag": "battle",
-		"id": "27"
+		"id": "28"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/znaoipcubt/30%20Route%203.mp3",
 		"name": "Road 3",
 		"game": "Red / Blue / Yellow",
 		"tag": "road",
-		"id": "28"
+		"id": "29"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/alpxxgucea/31%20A%20Trainer%20Appears%20%28Girl%20Version%29.mp3",
+		"name": "A Trainer Appears : Girl Version",
 		"game": "Red / Blue / Yellow",
-		"tag": "",
-		"id": ""
+		"tag": "battle",
+		"id": "30"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/tovvmkejdk/32%20Mt.%20Moon.mp3",
+		"name": "Mt. Moon",
 		"game": "Red / Blue / Yellow",
-		"tag": "",
-		"id": ""
+		"tag": "road",
+		"id": "31"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/xdyfceksek/33%20A%20Trainer%20Appears%20%28Bad%20Guy%20Version%29.mp3",
+		"name": "A Trainer Appears : Bad Guy Version",
 		"game": "Red / Blue / Yellow",
-		"tag": "",
-		"id": ""
+		"tag": "battle",
+		"id": "32"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/rwizsxiuls/34%20Cerulean%20City.mp3",
+		"name": "Cerulean City",
 		"game": "Red / Blue / Yellow",
-		"tag": "",
-		"id": ""
+		"tag": "city",
+		"id": "33"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/kuflfvzzlf/35%20Route%2024%20-%20Welcome%20to%20the%20World%20of%20Pok%C3%A9mon%21.mp3",
+		"name": "Road 24",
 		"game": "Red / Blue / Yellow",
-		"tag": "",
-		"id": ""
+		"tag": "road",
+		"id": "34"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/agnlljqwzp/36%20Vermilion%20City.mp3",
+		"name": "Vermilion City",
 		"game": "Red / Blue / Yellow",
-		"tag": "",
-		"id": ""
+		"tag": "city",
+		"id": "35"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ybqklwnuof/37%20The%20S.S.%20Anne.mp3",
+		"name": "The S.S. Anne",
 		"game": "Red / Blue / Yellow",
-		"tag": "",
-		"id": ""
+		"tag": "house",
+		"id": "36"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/wvqbzvlgsr/38%20Cycling.mp3",
+		"name": "Cycling",
 		"game": "Red / Blue / Yellow",
-		"tag": "",
-		"id": ""
+		"tag": "misc",
+		"id": "37"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/evntahdikg/39%20Route%2011.mp3",
+		"name": "Road 11",
+		"game": "Red / Blue / Yellow",
+		"tag": "road",
+		"id": "38"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ubdtyvosdh/40%20Lavender%20Town.mp3",
+		"name": "Lavender Town",
+		"game": "Red / Blue / Yellow",
+		"tag": "city",
+		"id": "39"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/gfewbflhqt/41%20Celadon%20City.mp3",
+		"name": "Celadon City",
+		"game": "Red / Blue / Yellow",
+		"tag": "city",
+		"id": "40"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/hxloyqpudx/42%20Rocket%20Game%20Corner.mp3",
+		"name": "Rocket Game Corner",
+		"game": "Red / Blue / Yellow",
+		"tag": "house",
+		"id": "41"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/zcfwxdrulr/43%20Rocket%20Hideout.mp3",
+		"name": "Rocket Hideout",
+		"game": "Red / Blue / Yellow",
+		"tag": "house",
+		"id": "42"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/gopezbgabt/44%20Sylph%20Co..mp3",
+		"name": "Sylph Co.",
+		"game": "Red / Blue / Yellow",
+		"tag": "house",
+		"id": "43"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/chhkvuwlhy/45%20Pok%C3%A9mon%20Tower.mp3",
+		"name": "Pokémon Tower",
+		"game": "Red / Blue / Yellow",
+		"tag": "house",
+		"id": "44"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/jremsvytho/46%20Pok%C3%A9%20Flute.mp3",
+		"name": "Poké Flute",
+		"game": "Red / Blue / Yellow",
+		"tag": "misc",
+		"id": "45"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/hjqyuwtiap/47%20Surf.mp3",
+		"name": "Surf",
+		"game": "Red / Blue / Yellow",
+		"tag": "misc",
+		"id": "46"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ulpulzhlda/48%20Cinnabar%20Island.mp3",
+		"name": "Cinnabar Island",
+		"game": "Red / Blue / Yellow",
+		"tag": "city",
+		"id": "47"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/yaonxkbdhf/49%20Pok%C3%A9mon%20Mansion.mp3",
+		"name": "Pokémon Mansion",
+		"game": "Red / Blue / Yellow",
+		"tag": "house",
+		"id": "48"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/pttkzwayiv/50%20Victory%20Road.mp3",
+		"name": "Victory Road",
+		"game": "Red / Blue / Yellow",
+		"tag": "road",
+		"id": "49"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/pvfhbfvjzj/51%20Final%20Battle%21%20%28Rival%29.mp3",
+		"name": "Final Battle",
+		"game": "Red / Blue / Yellow",
+		"tag": "battle",
+		"id": "50"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/gsziijmuzj/52%20Hall%20of%20Fame.mp3",
+		"name": "Hall Of Fame",
+		"game": "Red / Blue / Yellow",
+		"tag": "misc",
+		"id": "51"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/lfemzjtmwn/53%20Ending.mp3",
+		"name": "Ending",
+		"game": "Red / Blue / Yellow",
+		"tag": "ending",
+		"id": "52"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/avbratwajb/54%20Unused%20Track.mp3",
+		"name": "Unused Track",
+		"game": "Red / Blue / Yellow",
+		"tag": "misc",
+		"id": "53"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ycnqocwskd/55%20Opening%20Movie%20%28Yellow%20Version%29.mp3",
+		"name": "Opening Movie",
+		"game": "Yellow",
+		"tag": "opening",
+		"id": "54"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ajrcvufgtg/56%20Printer%20Menu.mp3",
+		"name": "Printer Menu",
+		"game": "Yellow",
+		"tag": "misc",
+		"id": "55"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/dlovwftdyd/57%20A%20Trainer%20Appears%20%28Rocket%20Duo%20Version%29.mp3",
+		"name": "A Trainer Appears : Rocket Duo Version",
+		"game": "Yellow",
+		"tag": "battle",
+		"id": "56"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ptsspgzaah/58%20Pikachu%27s%20Beach.mp3",
+		"name": "Pikachu's Beach",
+		"game": "Yellow",
+		"tag": "misc",
+		"id": "57"
 	}
 ]

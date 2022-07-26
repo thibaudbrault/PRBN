@@ -99,11 +99,11 @@ export default function Player() {
 		}
 	}, [curTrack, rangeDot])
 
-	useEffect(() => {
-		if (curTime == duration) {
-			next()
-		}
-	}, [curTime, duration, next])
+	// useEffect(() => {
+	// 	if (curTime == duration) {
+	// 		next()
+	// 	}
+	// }, [curTime, duration, next])
 
 	return (
 		<Main>
