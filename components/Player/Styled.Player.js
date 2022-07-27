@@ -1,11 +1,17 @@
 import styled from 'styled-components'
 
 export const Main = styled.main`
-	height: 80vh;
+	height: 70vh;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
+	& section {
+		position: relative;
+		z-index: 5;
+	}
 `
 
 export const Time = styled.div`
@@ -119,11 +125,11 @@ export const MoveButton = styled.button`
 	border: none;
 	font-size: 3rem;
 	color: ${({ theme }) => theme.light};
-    transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
 
-    &:active {
-        transform: scale(1.1);
-    }
+	&:active {
+		transform: scale(1.1);
+	}
 `
 
 export const PlayButton = styled.button`

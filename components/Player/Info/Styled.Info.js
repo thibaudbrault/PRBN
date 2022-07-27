@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import Image from 'next/image'
 import { H2 } from '../../Header/Styled.Header'
 
@@ -9,9 +9,22 @@ export const InfoSection = styled.section`
 	justify-content: center;
 `
 
+export const Rotate = keyframes`
+    from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+`;
+
 export const Cover = styled(Image)`
 	border: 1px solid ${({ theme }) => theme.light} !important;
-	border-radius: 10px;
+	border-radius: 50%;
+
+	&.animation {
+		animation: ${Rotate} 7s linear infinite;
+	}
 `
 
 export const InfoH2 = styled(H2)`

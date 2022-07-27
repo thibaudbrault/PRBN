@@ -19,7 +19,7 @@ export default function Home() {
 			<Head>
 				<title>PRBN | Pokémon Radio Broadcasting Network</title>
 				<meta name='description' content='Listen to every pokémon games ost' />
-				<link rel="shortcut icon" href="/favicon.ico" />
+				<link rel='shortcut icon' href='/favicon.ico' />
 			</Head>
 			<ThemeProvider theme={theme}>
 				<GlobalStyles />
