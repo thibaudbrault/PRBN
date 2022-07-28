@@ -57,7 +57,7 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/lfakpvxalk/10%20Battle%21%20%28Trainer%20Battle%29.mp3",
-		"name": "Battle : Trainer Battle",
+		"name": "Battle : Trainer",
 		"game": "Red / Blue / Yellow",
 		"tag": "battle",
 		"id": "9"
@@ -71,7 +71,7 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ecwbedzmys/12%20Victory%21%20%28Trainer%20Battle%29.mp3",
-		"name": "Victory : Trainer Battle",
+		"name": "Victory : Trainer",
 		"game": "Red / Blue / Yellow",
 		"tag": "battle",
 		"id": "11"
@@ -503,5 +503,89 @@
 		"game":"Gold / Silver / Crystal",
 		"tag": "house",
 		"id": "72"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/xeltbqlp/016%20Pok%C3%A9mon%20Healed.mp3",
+		"name": "Pokémon Healed",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "73"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/rkfgtceu/017%20Trainers%27%20Eyes%20Meet%20%28Boy%201%29.mp3",
+		"name": "Trainer Intro (Boy)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "74"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/sqegkhsa/018%20Battle%21%20Trainer%20%28Johto%29.mp3",
+		"name": "Battle : Trainer (Johto)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "75"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/wsamgtbx/019%20Victory%21%20%28Trainer%29.mp3",
+		"name": "Victory : Trainer",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "76"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/cxoonbfz/020%20Route%2030.mp3",
+		"name": "Road 30",
+		"game":"Gold / Silver / Crystal",
+		"tag": "road",
+		"id": "77"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/bykfilkb/021%20Pok%C3%A9dex%20Evaluation...%20No%20Good%21.mp3",
+		"name": "Pokédex Evaluation : No Good",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "78"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/zbkuympx/022%20Violet%20City.mp3",
+		"name": "Violet City",
+		"game":"Gold / Silver / Crystal",
+		"tag": "city",
+		"id": "79"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/bjbuioud/023%20Sprout%20Tower.mp3",
+		"name": "Sprout Tower",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "80"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/tgfxilrl/024%20Trainers%27%20Eyes%20Meet%20%28Sage%29.mp3",
+		"name": "Trainer Intro (Sage)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "81"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/dmtbkklg/025%20Received%20a%20Pok%C3%A9mon%20Egg%21.mp3",
+		"name": "Received a Pokémon Egg",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "82"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/mkpettui/026%20Union%20Cave.mp3",
+		"name": "Union Cave",
+		"game":"Gold / Silver / Crystal",
+		"tag": "road",
+		"id": "83"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/hunhyeqt/027%20Picked%20Up%20an%20Item%21.mp3",
+		"name": "Picked Up An Item",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "84"
 	}
 ]

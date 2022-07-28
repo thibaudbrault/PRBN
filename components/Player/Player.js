@@ -52,7 +52,7 @@ export default function Player({ curTrack, setCurTrack }) {
 		setCurTime(progressBar.current.value)
 	}
 
-	const togglePlayPause = () => {
+	const togglePlayPause = useCallback(() => {
 		setIsPlaying(!isPlaying)
 		if (isPlaying) {
 			audio.current.pause()
@@ -61,7 +61,7 @@ export default function Player({ curTrack, setCurTrack }) {
 			audio.current.play()
 			animationRef.current = requestAnimationFrame(rangeDot)
 		}
-	}
+	}, [isPlaying, rangeDot])
 
 	const rangeDot = useCallback(() => {
 		progressBar.current.value = audio.current.currentTime
@@ -97,13 +97,13 @@ export default function Player({ curTrack, setCurTrack }) {
 			setIsPlaying(false)
 			rangeDot()
 		}
-	}, [curTrack, rangeDot])
+	}, [curTrack, rangeDot, setCurTrack])
 
-	// useEffect(() => {
-	// 	if (curTime == duration) {
-	// 		next()
-	// 	}
-	// }, [curTime, duration, next])
+	useEffect(() => {
+		if (curTime == duration) {
+			setIsPlaying(false)
+		}
+	}, [curTime, duration])
 
 	return (
 		<Main>

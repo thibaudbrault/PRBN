@@ -22,7 +22,7 @@ export const H2 = styled.h2`
 
 export const Dropdown = styled.div`
 	& select {
-		padding: 0.5rem 0.3rem;
+		padding: 0.7rem 0.5rem;
 		font-size: 1.7rem;
 		border: 1px solid ${({ theme }) => theme.light};
 		border-radius: 5px;
@@ -32,7 +32,12 @@ export const Dropdown = styled.div`
 
 		& option {
 			background: ${({ theme }) => theme.dark};
-			cursor: pointer;
 		}
 	}
 `
+
+export const OptionTitle = styled.option`
+	font-size: 2rem;
+	font-weight: 700;
+	color: ${({ theme }) => theme.gold};
+`;
