@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import Head from 'next/head'
 import styled, { ThemeProvider } from 'styled-components'
 import { theme } from '../components/CommonStyles/GlobalStyles'
@@ -14,6 +15,9 @@ const Layout = styled.div`
 `
 
 export default function Home() {
+
+	let [curTrack, setCurTrack] = useState(0)
+
 	return (
 		<>
 			<Head>
@@ -24,8 +28,8 @@ export default function Home() {
 			<ThemeProvider theme={theme}>
 				<GlobalStyles />
 				<Layout>
-					<Header />
-					<Player />
+					<Header curTrack={curTrack} setCurTrack={setCurTrack} />
+					<Player curTrack={curTrack} setCurTrack={setCurTrack} />
 					<Footer />
 				</Layout>
 			</ThemeProvider>

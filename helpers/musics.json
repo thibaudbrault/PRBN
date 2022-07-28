@@ -1,7 +1,7 @@
 [
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/juvwzxotef/01%20Opening%20Movie%20%28Red%2C%20Green%20%26%20Blue%20Version%29.mp3",
-		"name": "Opening Movie",
+		"name": "Opening",
 		"game": "Red / Blue / Yellow",
 		"tag": "opening",
 		"id": "1"
@@ -372,7 +372,7 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ycnqocwskd/55%20Opening%20Movie%20%28Yellow%20Version%29.mp3",
-		"name": "Opening Movie",
+		"name": "Opening : Yellow Version",
 		"game": "Yellow",
 		"tag": "opening",
 		"id": "54"
@@ -399,102 +399,109 @@
 		"id": "57"
 	},
 	{
-		"link": "https://vgmsite.com/soundtracks/pokemon-gold-gb/kcutlnxg/01_Pokemon%20GS%20Intro%201.mp3",
-		"name": "Gold Silver Intro 1",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/tisvhexr/001%20Opening%20Demo%201.mp3",
+		"name": "Opening 1",
 		"game": "Gold / Silver / Crystal",
 		"tag": "opening",
 		"id": "58"
 	},
 	{
-		"link": "https://vgmsite.com/soundtracks/pokemon-gold-gb/flcnwvvf/02_Pokemon%20GS%20Intro%202.mp3",
-		"name": "Gold Silver Intro 2",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/zhyxuaka/002%20Opening%20Demo%202.mp3",
+		"name": "Opening 2",
 		"game": "Gold / Silver / Crystal",
 		"tag": "opening",
 		"id": "59"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ujaloodr/003%20Title.mp3",
+		"name": "Title",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "opening",
+		"id": "60"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/rjkfcbwa/004%20An%20Adventure%20Begins.mp3",
+		"name": "An Adventure Begins",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "opening",
+		"id": "61"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/miuwlwms/005%20New%20Bark%20Town.mp3",
+		"name": "New Bark Town",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "city",
+		"id": "62"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/qwbjjbhu/006%20Hurry%20Along.mp3",
+		"name": "Hurry Along",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "misc",
+		"id": "63"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ahxwbkrf/007%20Elm%20Pok%C3%A9mon%20Lab.mp3",
+		"name": "Elm Pokémon Lab",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "house",
+		"id": "64"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/yahiubqw/008%20Obtained%20a%20Key%20Item%21.mp3",
+		"name": "Obtained a Key Item",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "65"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/vknqlkxk/009%20Route%2029.mp3",
+		"name": "Road 29",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "road",
+		"id": "66"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/jchpphlw/010%20Battle%21%20Wild%20Pok%C3%A9mon%20%28Johto%29%20%28Day%29.mp3",
+		"name": "Battle : Wild Pokémon (Johto) (Day)",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "battle",
+		"id": "67"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/rylwnmtd/011%20Victory%21%20%28Wild%20Pok%C3%A9mon%29.mp3",
+		"name": "Victory : Wild Pokémon",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "battle",
+		"id": "68"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/syhrwtmg/012%20Level%20Up%21.mp3",
+		"name": "Level Up",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "69"
 	},
 
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/rdrhmqqy/013%20Cherrygrove%20City.mp3",
+		"name": "Cherrygrove City",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "city",
+		"id": "70"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ujicdbup/014%20Hurry%20Along%202.mp3",
+		"name": "Guide",
 		"game": "Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "misc",
+		"id": "71"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/osokcuge/015%20Pok%C3%A9mon%20Center.mp3",
+		"name": "Pokémon Center",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "72"
 	}
 ]

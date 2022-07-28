@@ -28,9 +28,11 @@ export const Dropdown = styled.div`
 		border-radius: 5px;
 		background: none;
 		color: ${({ theme }) => theme.light};
+		cursor: pointer;
 
 		& option {
 			background: ${({ theme }) => theme.dark};
+			cursor: pointer;
 		}
 	}
 `

@@ -2,8 +2,13 @@ import React from 'react'
 import { Dropdown, H1, H2, Head } from './Styled.Header'
 import musics from '/helpers/musics.json'
 
-export default function Header() {
-	console.log(musics)
+export default function Header({ curTrack, setCurTrack }) {
+
+	const selectTrack = (m) => {
+		setCurTrack(m?.id - 1)
+	}
+
+	console.log(curTrack)
 
 	return (
 		<>
@@ -16,7 +21,7 @@ export default function Header() {
 							Select a Track
 						</option>
 						{musics?.map((m) => (
-							<option key={m?.name} value={m?.name}>
+							<option key={m?.name + m?.id} value={m?.name} onClick={() => selectTrack(m)}>
 								{m?.name}
 							</option>
 						))}

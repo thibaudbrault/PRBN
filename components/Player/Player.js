@@ -23,11 +23,11 @@ import { TiArrowLoop } from 'react-icons/ti'
 
 import Info from './Info/Info'
 
-export default function Player() {
+export default function Player({ curTrack, setCurTrack }) {
 	const [isPlaying, setIsPlaying] = useState(false)
-	let [curTrack, setCurTrack] = useState(0)
 	const [duration, setDuration] = useState(0)
 	const [curTime, setCurTime] = useState(0)
+	const [shuffled, setShuffled] = useState(false)
 
 	const audio = useRef()
 	const progressBar = useRef()
@@ -98,8 +98,6 @@ export default function Player() {
 			rangeDot()
 		}
 	}, [curTrack, rangeDot])
-
-	console.log(curTrack)
 
 	// useEffect(() => {
 	// 	if (curTime == duration) {
