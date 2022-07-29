@@ -8,4 +8,9 @@ module.exports = {
 	images: {
 		domains: ['vgmsite.com'],
 	},
+	experimental: {
+		images: {
+			unoptimized: true,
+		},
+	},
 }

@@ -8,8 +8,6 @@ export default function Header({ curTrack, setCurTrack }) {
 		setCurTrack(m?.id - 1)
 	}
 
-	console.log(curTrack)
-
 	return (
 		<>
 			<Head>

@@ -31,6 +31,7 @@ export const Dropdown = styled.div`
 		cursor: pointer;
 
 		& option {
+			padding: 1rem 0;
 			background: ${({ theme }) => theme.dark};
 		}
 	}
