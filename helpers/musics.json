@@ -587,5 +587,117 @@
 		"game":"Gold / Silver / Crystal",
 		"tag": "fanfare",
 		"id": "84"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/otpjjoxl/028%20Ruins%20of%20Alph.mp3",
+		"name": "Ruins Of Alph",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "85"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/kbpwkeay/029%20Voices%20of%20the%20Unown.mp3",
+		"name": "Voices Of The Unown",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "86"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/amikdakm/030%20Pok%C3%A9dex%20Evaluation...%20You%27re%20on%20Your%20Way%21.mp3",
+		"name": "Pokédex Evaluation : You're On Your Way",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "87"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/yehklise/031%20Azalea%20Town.mp3",
+		"name": "Azalea Town",
+		"game":"Gold / Silver / Crystal",
+		"tag": "city",
+		"id": "88"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/adzlpvac/032%20Trainers%27%20Eyes%20Meet%20%28Team%20Rocket%29.mp3",
+		"name": "Trainer Intro (Team Rocket)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "89"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/lzjclaip/033%20Battle%21%20Team%20Rocket.mp3",
+		"name": "Battle : Team Rocket",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "90"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/klwlpynx/034%20Route%2034.mp3",
+		"name": "Road 34",
+		"game":"Gold / Silver / Crystal",
+		"tag": "road",
+		"id": "91"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/uhnwqsoj/035%20A%20Rival%20Appears%21.mp3",
+		"name": "A Rival Appears",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "92"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ycqgzdbw/036%20Battle%21%20Rival.mp3",
+		"name": "Battle : Rival",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "93"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/iagdhrna/037%20Evolution.mp3",
+		"name": "Evolution",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "94"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/gjmyltql/038%20Congratulations%21%20Your%20Pok%C3%A9mon%20Evolved%21.mp3",
+		"name": "Congratulations ! Your Pokémon Evolved",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "95"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/iznsmdez/039%20Caught%20a%20Pok%C3%A9mon.mp3",
+		"name": "Caught a Pokémon",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "96"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/cyxxxxjs/040%20Goldenrod%20City.mp3",
+		"name": "Goldenrod City",
+		"game":"Gold / Silver / Crystal",
+		"tag": "city",
+		"id": "97"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/efsjykwb/041%20Pok%C3%A9mon%20Gym.mp3",
+		"name": "Pokémon Gym",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "98"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ltyjuezo/042%20Battle%21%20Gym%20Leader%20%28Johto%29.mp3",
+		"name": "Battle : Gym Leader (Johto)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "99"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/vrbohwhz/043%20Victory%21%20%28Gym%20Leader%29.mp3",
+		"name": "Victory : Gym Leader",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "100"
 	}
 ]
