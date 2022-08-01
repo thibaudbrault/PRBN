@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
 
 	render() {
 		return (
-			<Html>
+			<Html lang='en'>
 				<Head>
 					<meta name='description' content='Listen to every pokémon games ost' />
 					<link rel='shortcut icon' href='/favicon.ico' />

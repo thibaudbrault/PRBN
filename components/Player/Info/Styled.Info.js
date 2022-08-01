@@ -28,7 +28,7 @@ export const Cover = styled(Image)`
 `
 
 export const InfoH2 = styled(H2)`
-	margin-top: 2rem;
+	margin: 2rem 0 0;
 	text-transform: capitalize;
 `
 

@@ -21,23 +21,52 @@ export const H2 = styled.h2`
 `
 
 export const Dropdown = styled.div`
-	& select {
-		padding: 0.7rem 0.5rem;
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+
+	& button {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		height: 4rem;
+		padding: 0 1rem;
+		background: ${({ theme }) => theme.dark};
+		border-radius: 10px;
+		border: 1px solid ${({ theme }) => theme.light};
+		color: ${({ theme }) => theme.light};
+		text-transform: capitalize;
+		font-size: 2rem;
+	}
+
+	& ol {
+		position: absolute;
+		top: 4.5rem;
+		left: 0;
+		max-height: 50rem;
+		width: 100%;
 		font-size: 1.7rem;
 		border: 1px solid ${({ theme }) => theme.light};
 		border-radius: 5px;
 		background: none;
 		color: ${({ theme }) => theme.light};
+		overflow-y: auto;
 		cursor: pointer;
+		z-index: 6;
 
-		& option {
-			padding: 1rem 0;
+		& li {
+			padding: 1rem 0.5rem;
 			background: ${({ theme }) => theme.dark};
 		}
 	}
+
+	&:first-of-type {
+		margin-bottom: 2rem;
+	}
 `
 
-export const OptionTitle = styled.option`
+export const OptionTitle = styled.li`
 	font-size: 2rem;
 	font-weight: 700;
 	color: ${({ theme }) => theme.gold};

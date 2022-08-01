@@ -28,6 +28,7 @@ export default function Player({ curTrack, setCurTrack }) {
 	const [duration, setDuration] = useState(0)
 	const [curTime, setCurTime] = useState(0)
 	const [shuffled, setShuffled] = useState(false)
+	const [looped, setLooped] = useState(false)
 
 	const audio = useRef()
 	const progressBar = useRef()
@@ -99,11 +100,25 @@ export default function Player({ curTrack, setCurTrack }) {
 		}
 	}, [curTrack, rangeDot, setCurTrack])
 
+	const loop = () => {
+		setLooped(!looped)
+	}
+
 	useEffect(() => {
-		if (curTime == duration) {
-			setIsPlaying(false)
+		if(looped && curTime == duration) {
+			progressBar.current.value === 0
+			setCurTime(progressBar.current.value)
+			setIsPlaying(true)
 		}
-	}, [curTime, duration])
+	}, [curTime, looped, duration])
+
+	const canPlay = () => {
+		setIsPlaying(true)
+	}
+
+	const shuffle = () => {
+		setShuffled(!shuffled)
+	}
 
 	return (
 		<Main>
@@ -124,8 +139,17 @@ export default function Player({ curTrack, setCurTrack }) {
 						ref={audio}
 						src={musics?.[curTrack]?.link}
 						preload='metadata'
+						onEnded={next}
+						onCanPlay={canPlay}
+						autoPlay
 					></audio>
-					<MoveButton title='Loop'>
+					<MoveButton title='Loop' onClick={loop}
+						style={
+							looped 
+								? {color: '#A1946B'}
+								: {color: '#DDDDDD'}
+						}
+					>
 						<TiArrowLoop />
 					</MoveButton>
 					<MoveButton title='Previous track' onClick={previous}>
@@ -143,7 +167,13 @@ export default function Player({ curTrack, setCurTrack }) {
 					<MoveButton title='Next track' onClick={next}>
 						<TbPlayerTrackNext />
 					</MoveButton>
-					<MoveButton title='Shuffle'>
+					<MoveButton title='Shuffle' onClick={shuffle}
+						style={
+							shuffled 
+								? {color: '#A1946B'}
+								: {color: '#DDDDDD'}
+						}
+					>
 						<TbArrowsShuffle2 />
 					</MoveButton>
 				</AudioContainer>

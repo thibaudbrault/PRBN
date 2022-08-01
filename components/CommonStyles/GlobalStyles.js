@@ -35,6 +35,11 @@ export const GlobalStyles = createGlobalStyle`
         vertical-align: baseline;
     }
 
+    input[type='range'] {
+        padding: 0;
+        margin: 0;
+    }
+
     html {
         color: ${({ theme }) => theme.light};
         background: ${({ theme }) => theme.dark};

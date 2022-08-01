@@ -37,6 +37,7 @@ export const ProgressBar = styled.input`
 	width: 100%;
 	height: 1rem;
 	appearance: none;
+	-webkit-appearance: none;
 	border-radius: 10px;
 	background: ${({ theme }) => theme.light};
 	border: 1px solid transparent;
@@ -92,6 +93,7 @@ export const ProgressBar = styled.input`
 		-webkit-appearance: none;
 		height: 2rem;
 		width: 2rem;
+		margin-top: -0.5rem;
 		border-radius: 50%;
 		border: 2px solid ${({ theme }) => theme.light};
 		background: ${({ theme }) => theme.dark};
