@@ -58,6 +58,11 @@ export const Dropdown = styled.div`
 		& li {
 			padding: 1rem 0.5rem;
 			background: ${({ theme }) => theme.dark};
+
+			&:hover {
+				background: ${({ theme }) => theme.light};
+				color: ${({ theme }) => theme.dark};
+			}
 		}
 	}
 

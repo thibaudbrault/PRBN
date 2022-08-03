@@ -701,87 +701,101 @@
 		"id": "100"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/pnvlpaui/044%20Received%20a%20Gym%20Badge%21.mp3",
+		"name": "Received a Gym Badge",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "101"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ntyzejqt/045%20Received%20a%20TM%21.mp3",
+		"name": "Received a TM",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "102"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/rhoemrfg/046%20Goldenrod%20Game%20Corner.mp3",
+		"name": "Goldenrod Game Corner",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "house",
+		"id": "103"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/sfrmkkyl/047%20Out%20of%20Coins%21.mp3",
+		"name": "Out Of Coins",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "104"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/nnkyrict/048%20Pok%C3%A9dex%20Evaluation...%20Keep%20at%20It%21.mp3",
+		"name": "Pokédex Evaluation : Keep At It",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "105"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/oimvsyev/049%20Bicycle.mp3",
+		"name": "Bicycle",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "misc",
+		"id": "106"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/fsuydtgv/050%20Trainers%27%20Eyes%20Meet%20%28Girl%201%29.mp3",
+		"name": "Trainer Intro (Girl)",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "battle",
+		"id": "107"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/fjdyxhdw/051%20Registered%20in%20the%20Pok%C3%A9gear%21.mp3",
+		"name": "Registered In The Pokégear",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "108"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/pzjlgnaz/052%20National%20Park.mp3",
+		"name": "National Park",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "road",
+		"id": "109"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ayroqxgp/053%20The%20Bug-Catching%20Contest%20Begins%21.mp3",
+		"name": "The Bug Catching Contest Begins",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "110"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/pvvkbaej/054%20The%20Bug-Catching%20Contest.mp3",
+		"name": "The Bug Catching Contest",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "111"
 	},
 	{
-		"link": "",
-		"name": "",
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/adsfijwr/055%20The%20Bug-Catching%20Contest%20-%20Third%20Place.mp3",
+		"name": "The Bug Catching Contest : Third Place",
 		"game":"Gold / Silver / Crystal",
-		"tag": "",
-		"id": ""
+		"tag": "fanfare",
+		"id": "112"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/wtmvubia/056%20The%20Bug-Catching%20Contest%20-%20Second%20Place.mp3",
+		"name": "The Bug Catching Contest : Second Place",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "113"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/xwfwtfzh/057%20The%20Bug-Catching%20Contest%20-%20Winner.mp3",
+		"name": "The Bug Catching Contest : Winner",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "114"
 	}
 ]

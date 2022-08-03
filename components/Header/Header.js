@@ -11,9 +11,7 @@ export default function Header({ curTrack, setCurTrack }) {
 
 	const toggleOpenGame = () => {
 		setIsOpenGame(!isOpenGame)
-		if(isOpenTrack) {
-			setIsOpenGame(false)
-		}
+		setIsOpenTrack(false)
 	}
 
 	const toggleOpenTrack = () => {
