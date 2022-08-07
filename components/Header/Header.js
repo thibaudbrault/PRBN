@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Dropdown, H1, H2, Head, OptionTitle } from './Styled.Header'
 import musics from '/helpers/musics.json'
 
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
 
-export default function Header({ curTrack, setCurTrack }) {
+export default function Header({ curTrack, setCurTrack, game, setGame, filteredMusics, setFilteredMusics }) {
 
 	const [isOpenGame, setIsOpenGame] = useState(false)
 	const [isOpenTrack, setIsOpenTrack] = useState(false)
@@ -36,7 +36,9 @@ export default function Header({ curTrack, setCurTrack }) {
 								: (<IoIosArrowDown />)
 							}
 						</span>
-						<span>Select a Game</span>
+						<span>
+							{game}
+						</span>
 						<span>
 							{isOpenGame
 								? (<IoIosArrowUp />)
@@ -46,9 +48,9 @@ export default function Header({ curTrack, setCurTrack }) {
 					</button>
 					{isOpenGame && (
 						<ol>
-							<li value='all'>All</li>
-							<li value='red / blue / yellow'>Red / Blue / Yellow</li>
-							<li value='gold / silver / crystal'>Gold / Silver / Crystal</li>
+							<li value='all' onClick={() => {setGame('all'); setIsOpenGame(false);}}>All</li>
+							<li value='red / blue / yellow' onClick={() => {setGame('red / blue / yellow'); setIsOpenGame(false);}}>Red / Blue / Yellow</li>
+							<li value='gold / silver / crystal' onClick={() => {setGame('gold / silver / crystal'); setIsOpenGame(false);}}>Gold / Silver / Crystal</li>
 						</ol>
 					)}
 				</Dropdown>
@@ -70,10 +72,14 @@ export default function Header({ curTrack, setCurTrack }) {
 					</button>
 					{isOpenTrack && (
 						<ol>
-							<OptionTitle>
+							<OptionTitle style={
+								(game !== 'red / blue / yellow') || (game !== 'all') || (game !== 'Select A Track') 
+									? {display: 'none'}
+									: {display: 'inline'}
+								}>
 								Red / Blue / Yellow
 							</OptionTitle>
-							{musics?.map((m) => (
+							{filteredMusics?.map((m) => (
 								m?.id < 58 && m?.id > 0 &&
 									<li key={m?.name + m?.id} onClick={() => selectTrack(m)}>
 										{m?.name}
@@ -82,8 +88,8 @@ export default function Header({ curTrack, setCurTrack }) {
 							<OptionTitle>
 								Gold / Silver / Crystal
 							</OptionTitle>
-							{musics?.map((m) => (
-								m?.id > 57 &&
+							{filteredMusics?.map((m) => (
+								m?.id < 176 && m?.id > 57 &&
 									<li key={m?.name + m?.id} onClick={() => selectTrack(m)}>
 										{m?.name}
 									</li>

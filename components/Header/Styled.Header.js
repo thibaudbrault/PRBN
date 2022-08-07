@@ -14,7 +14,7 @@ export const H1 = styled.h1`
 `
 
 export const H2 = styled.h2`
-	margin: 2rem 0;
+	margin: 2rem 0 3rem;
 	font-size: 3.5rem;
 	font-family: ${({ theme }) => theme.wendy};
 	text-align: center;
@@ -22,7 +22,8 @@ export const H2 = styled.h2`
 
 export const Dropdown = styled.div`
 	position: relative;
-	width: 70%;
+	width: 75%;
+	max-width: 750px;
 	margin: 0 auto;
 
 	& button {

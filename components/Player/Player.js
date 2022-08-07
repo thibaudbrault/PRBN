@@ -23,7 +23,7 @@ import { TiArrowLoop } from 'react-icons/ti'
 
 import Info from './Info/Info'
 
-export default function Player({ curTrack, setCurTrack }) {
+export default function Player({ curTrack, setCurTrack, game, filteredMusics }) {
 	const [isPlaying, setIsPlaying] = useState(false)
 	const [duration, setDuration] = useState(0)
 	const [curTime, setCurTime] = useState(0)
@@ -91,14 +91,20 @@ export default function Player({ curTrack, setCurTrack }) {
 	}
 
 	const next = useCallback(() => {
-		if (musics?.[curTrack]?.id == musics.length) {
+		if (game === 'red / blue / yellow' && curTrack === 56) {
 			setCurTrack(curTrack)
+			setIsPlaying(false)
+			alert('Red / Blue / Yellow soundtrack ended')
+		} else if (game === 'gold / silver / crystal' && curTrack === 174) {
+			setCurTrack(curTrack)
+			setIsPlaying(false)
+			alert('Gold / Silver / Crystal soundtrack ended')
 		} else {
 			setCurTrack(curTrack + 1)
 			setIsPlaying(false)
 			rangeDot()
 		}
-	}, [curTrack, rangeDot, setCurTrack])
+	}, [game, curTrack, setCurTrack, rangeDot])
 
 	const loop = () => {
 		setLooped(!looped)
@@ -119,6 +125,8 @@ export default function Player({ curTrack, setCurTrack }) {
 	const shuffle = () => {
 		setShuffled(!shuffled)
 	}
+
+	console.log(curTrack)
 
 	return (
 		<Main>

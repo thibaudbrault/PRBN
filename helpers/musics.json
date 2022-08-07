@@ -24,7 +24,7 @@
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/uwfadsnwqq/05%20Professor%20Oak.mp3",
 		"name": "Professor Oak",
 		"game": "Red / Blue / Yellow",
-		"tag": "character",
+		"tag": "misc",
 		"id": "4"
 	},
 	{
@@ -78,9 +78,9 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/ilqgmmwzfl/13%20Route%201.mp3",
-		"name": "Road 1",
+		"name": "Route 1",
 		"game": "Red / Blue / Yellow",
-		"tag": "road",
+		"tag": "route",
 		"id": "12"
 	},
 	{
@@ -134,7 +134,7 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/jdjxqwkzvy/21%20Fanfare%20Trade%20Pok%C3%A9mon%20Received.mp3",
-		"name": "Trade pokémon",
+		"name": "Trade Pokémon",
 		"game": "Red / Blue / Yellow",
 		"tag": "fanfare",
 		"id": "20"
@@ -143,7 +143,7 @@
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/spwofxkyfi/22%20Viridian%20Forest.mp3",
 		"name": "Viridian Forest",
 		"game": "Red / Blue / Yellow",
-		"tag": "road",
+		"tag": "route",
 		"id": "21"
 	},
 	{
@@ -197,9 +197,9 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/znaoipcubt/30%20Route%203.mp3",
-		"name": "Road 3",
+		"name": "Route 3",
 		"game": "Red / Blue / Yellow",
-		"tag": "road",
+		"tag": "route",
 		"id": "29"
 	},
 	{
@@ -213,7 +213,7 @@
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/tovvmkejdk/32%20Mt.%20Moon.mp3",
 		"name": "Mt. Moon",
 		"game": "Red / Blue / Yellow",
-		"tag": "road",
+		"tag": "route",
 		"id": "31"
 	},
 	{
@@ -232,9 +232,9 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/kuflfvzzlf/35%20Route%2024%20-%20Welcome%20to%20the%20World%20of%20Pok%C3%A9mon%21.mp3",
-		"name": "Road 24",
+		"name": "Route 24",
 		"game": "Red / Blue / Yellow",
-		"tag": "road",
+		"tag": "route",
 		"id": "34"
 	},
 	{
@@ -260,9 +260,9 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/evntahdikg/39%20Route%2011.mp3",
-		"name": "Road 11",
+		"name": "Route 11",
 		"game": "Red / Blue / Yellow",
-		"tag": "road",
+		"tag": "route",
 		"id": "38"
 	},
 	{
@@ -336,10 +336,10 @@
 		"id": "48"
 	},
 	{
-		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/pttkzwayiv/50%20Victory%20Road.mp3",
-		"name": "Victory Road",
+		"link": "https://vgmsite.com/soundtracks/pokemon-red-green-blue-yellow/pttkzwayiv/50%20Victory%20Route.mp3",
+		"name": "Victory Route",
 		"game": "Red / Blue / Yellow",
-		"tag": "road",
+		"tag": "route",
 		"id": "49"
 	},
 	{
@@ -449,16 +449,16 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/yahiubqw/008%20Obtained%20a%20Key%20Item%21.mp3",
-		"name": "Obtained a Key Item",
+		"name": "Obtained A Key Item",
 		"game": "Gold / Silver / Crystal",
 		"tag": "fanfare",
 		"id": "65"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/vknqlkxk/009%20Route%2029.mp3",
-		"name": "Road 29",
+		"name": "Route 29",
 		"game": "Gold / Silver / Crystal",
-		"tag": "road",
+		"tag": "route",
 		"id": "66"
 	},
 	{
@@ -534,9 +534,9 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/cxoonbfz/020%20Route%2030.mp3",
-		"name": "Road 30",
+		"name": "Route 30",
 		"game":"Gold / Silver / Crystal",
-		"tag": "road",
+		"tag": "route",
 		"id": "77"
 	},
 	{
@@ -569,7 +569,7 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/dmtbkklg/025%20Received%20a%20Pok%C3%A9mon%20Egg%21.mp3",
-		"name": "Received a Pokémon Egg",
+		"name": "Received A Pokémon Egg",
 		"game":"Gold / Silver / Crystal",
 		"tag": "fanfare",
 		"id": "82"
@@ -578,7 +578,7 @@
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/mkpettui/026%20Union%20Cave.mp3",
 		"name": "Union Cave",
 		"game":"Gold / Silver / Crystal",
-		"tag": "road",
+		"tag": "route",
 		"id": "83"
 	},
 	{
@@ -632,9 +632,9 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/klwlpynx/034%20Route%2034.mp3",
-		"name": "Road 34",
+		"name": "Route 34",
 		"game":"Gold / Silver / Crystal",
-		"tag": "road",
+		"tag": "route",
 		"id": "91"
 	},
 	{
@@ -667,7 +667,7 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/iznsmdez/039%20Caught%20a%20Pok%C3%A9mon.mp3",
-		"name": "Caught a Pokémon",
+		"name": "Caught A Pokémon",
 		"game":"Gold / Silver / Crystal",
 		"tag": "fanfare",
 		"id": "96"
@@ -702,14 +702,14 @@
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/pnvlpaui/044%20Received%20a%20Gym%20Badge%21.mp3",
-		"name": "Received a Gym Badge",
+		"name": "Received A Gym Badge",
 		"game":"Gold / Silver / Crystal",
 		"tag": "fanfare",
 		"id": "101"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ntyzejqt/045%20Received%20a%20TM%21.mp3",
-		"name": "Received a TM",
+		"name": "Received A TM",
 		"game":"Gold / Silver / Crystal",
 		"tag": "fanfare",
 		"id": "102"
@@ -760,7 +760,7 @@
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/pzjlgnaz/052%20National%20Park.mp3",
 		"name": "National Park",
 		"game":"Gold / Silver / Crystal",
-		"tag": "road",
+		"tag": "route",
 		"id": "109"
 	},
 	{
@@ -797,5 +797,432 @@
 		"game":"Gold / Silver / Crystal",
 		"tag": "fanfare",
 		"id": "114"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/hoclofqo/058%20Ecruteak%20City.mp3",
+		"name": "Ecruteak City",
+		"game":"Gold / Silver / Crystal",
+		"tag": "city",
+		"id": "115"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/niijiyaz/059%20Ecruteak%20Dance%20Theater.mp3",
+		"name": "Ecruteak Dance Theater",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "116"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ypacsmht/060%20Trainers%27%20Eyes%20Meet%20%28Kimono%20Girl%29.mp3",
+		"name": "Trainer Intro (Kimono Girl)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "117"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/nyjyzawk/061%20Burned%20Tower.mp3",
+		"name": "Burned Tower",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "118"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/mavtycnb/062%20Eusine.mp3",
+		"name": "Eusine",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "119"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/jcpwgxlt/063%20Trade%20Complete.mp3",
+		"name": "Trade Complete",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "120"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/kjenothc/064%20Pok%C3%A9dex%20Evaluation...%20Not%20Bad%21.mp3",
+		"name": "Pokédex Evaluation : Not Bad",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "121"
+	},
+	{
+		"link": "https://downloads.khinsider.com/game-soundtracks/album/pokemon-gold-silver-crystal/065%2520Route%252038.mp3",
+		"name": "Route 38",
+		"game":"Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "122"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/nlxtxrrn/066%20Battle%21%20Wild%20Pok%C3%A9mon%20%28Johto%29%20%28Night%29.mp3",
+		"name": "Battle : Wild Pokémon (Johto) (Night)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "123"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/eoaxlefb/067%20Olivine%20Lighthouse.mp3",
+		"name": "Olivine Lighthouse",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "124"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/eqqfyugo/068%20Surf.mp3",
+		"name": "Surf",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "125"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/niqdmcjk/069%20Route%2042.mp3",
+		"name": "Route 42",
+		"game":"Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "126"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/wswqqnai/070%20Radio%20Transmission.mp3",
+		"name": "Radio Transmission",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "127"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/cqzmocpn/071%20Team%20Rocket%20HQ.mp3",
+		"name": "Team Rocket HQ",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "128"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/rxdqiodu/072%20Trainers%27%20Eyes%20Meet%20%28Suspicious%20Figure%201%29.mp3",
+		"name": "Trainer Intro (Suspicious Figure)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "129"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/eqoojtcn/073%20A%20Rival%20Appears%21%20%28Version%202%29.mp3",
+		"name": "A Rival Appears",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "130"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/yyiyiued/074%20Radio%20Tower%20Occupied%21.mp3",
+		"name": "Radio Tower Occupied",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "131"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/zrxmrhwh/075%20Bell%20Tower.mp3",
+		"name": "Bell Tower",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "132"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/clswiytz/076%20Battle%21%20Suicune.mp3",
+		"name": "Battle : Suicune",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "133"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/cozwysug/078%20Move%20Deleted.mp3",
+		"name": "Move Deleted",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "134"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/yakkyqmv/079%20Dragon%27s%20Den.mp3",
+		"name": "Dragon's Den",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "135"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/jctqjgfw/080%20Clair.mp3",
+		"name": "Clair",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "136"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ijcndikb/081%20Route%2026.mp3",
+		"name": "Route 26",
+		"game":"Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "137"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/keivzjaq/082%20S.S.%20Aqua.mp3",
+		"name": "S.S. Aqua",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "138"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/pciddiyh/083%20Vermilion%20City.mp3",
+		"name": "Vermilion City",
+		"game":"Gold / Silver / Crystal",
+		"tag": "city",
+		"id": "139"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/pqsslryx/084%20Battle%21%20Gym%20Leader%20%28Kanto%29.mp3",
+		"name": "Battle : Gym Leader (Kanto)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "140"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/cuquyxtn/085%20Lavender%20Town.mp3",
+		"name": "Lavender Town",
+		"game":"Gold / Silver / Crystal",
+		"tag": "city",
+		"id": "141"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/onaamomg/086%20Rock%20Tunnel.mp3",
+		"name": "Rock Tunnel",
+		"game":"Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "142"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/uyubpbpw/087%20Battle%21%20Wild%20Pok%C3%A9mon%20%28Kanto%29.mp3",
+		"name": "Battle : Wild Pokémon (Kanto)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "143"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/mughwbrd/088%20Pok%C3%A9dex%20Evaluation...%20Just%20a%20Little%20More%21.mp3",
+		"name": "Pokédex Evaluation : Just A Little More",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "144"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/wpwzgtlw/089%20Magnet%20Train.mp3",
+		"name": "Magnet Train",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "145"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/dhddkopv/090%20Celadon%20City.mp3",
+		"name": "Celadon City",
+		"game":"Gold / Silver / Crystal",
+		"tag": "city",
+		"id": "146"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/rgsnbovg/091%20Route%2011.mp3",
+		"name": "Route 11",
+		"game":"Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "147"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ntujexlg/092%20Viridian%20Forest.mp3",
+		"name": "Viridian Forest",
+		"game":"Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "148"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/kguwpyjc/093%20Trainers%27%20Eyes%20Meet%20%28Boy%202%29.mp3",
+		"name": "Trainer Intro (Boy 2)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "149"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ypqnykhq/097%20Mt.%20Moon.mp3",
+		"name": "Mt. Moon",
+		"game":"Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "150"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/wmczdatm/098%20Route%201.mp3",
+		"name": "Route 1",
+		"game":"Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "151"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/lhlnqicx/099%20Pallet%20Town.mp3",
+		"name": "Pallet Town",
+		"game":"Gold / Silver / Crystal",
+		"tag": "city",
+		"id": "152"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/enaxrbgr/100%20Professor%20Oak.mp3",
+		"name": "Professor Oak",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "153"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/mjixomjk/101%20Pok%C3%A9dex%20Evaluation...%20Complete%21.mp3",
+		"name": "Pokédex Evaluation : Complete",
+		"game":"Gold / Silver / Crystal",
+		"tag": "fanfare",
+		"id": "154"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/hpqjubwu/102%20Trainers%27%20Eyes%20Meet%20%28Girl%202%29.mp3",
+		"name": "Trainer Intro (Girl 2)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "155"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/hvtialgt/103%20Battle%21%20Trainer%20%28Kanto%29.mp3",
+		"name": "Battle : Trainer (Kanto)",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "156"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/kbswlkkb/104%20Pok%C3%A9gear%20Radio%20-%20Professor%20Oak%27s%20Pok%C3%A9mon%20Talk.mp3",
+		"name": "Pokégear Radio : Professor Oak's Pokémon Talk",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "157"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/sbdxdibk/105%20Pok%C3%A9gear%20Radio%20-%20Pok%C3%A9mon%20March.mp3",
+		"name": "Pokégear Radio : Pokémon March",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "158"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ksnkpjbq/106%20Pok%C3%A9gear%20Radio%20-%20Pok%C3%A9mon%20Lullaby.mp3",
+		"name": "Pokégear Radio : Pokémon Lullaby",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "159"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/igbklnot/107%20Pok%C3%A9gear%20Radio%20-%20Buena%27s%20Password.mp3",
+		"name": "Pokégear Radio : Buena's Password",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "160"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/pgtnqslz/108%20Pok%C3%A9gear%20Radio%20-%20Pok%C3%A9mon%20Channel.mp3",
+		"name": "Pokégear Radio : Pokémon Channel",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "161"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/taipkvwl/109%20Pok%C3%A9gear%20Radio%20-%20Pok%C3%A9%20Flute.mp3",
+		"name": "Pokégear Radio : Poké Flute",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "162"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/jdvmdley/110%20Battle%20Tower%20Reception%20Desk.mp3",
+		"name": "Battle Tower Reception Desk",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "163"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/npbeqlaa/111%20Battle%20Tower.mp3",
+		"name": "Battle Tower",
+		"game":"Gold / Silver / Crystal",
+		"tag": "house",
+		"id": "164"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/hrtdhvhj/118%20Victory%20Road.mp3",
+		"name": "Victory Road",
+		"game":"Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "165"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/huxfsoag/119%20Pok%C3%A9mon%20League.mp3",
+		"name": "Pokémon League",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "166"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/sgjalmzw/120%20Battle%21%20Champion.mp3",
+		"name": "Battle : Champion",
+		"game":"Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "167"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/uishyosc/121%20The%20Hall%20of%20Fame.mp3",
+		"name": "Hall Of Fame",
+		"game":"Gold / Silver / Crystal",
+		"tag": "misc",
+		"id": "168"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/xsntoqeu/122%20Ending%20Theme.mp3",
+		"name": "Ending",
+		"game":"Gold / Silver / Crystal",
+		"tag": "ending",
+		"id": "169"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/shunjqfm/123%20The%20End.mp3",
+		"name": "The End",
+		"game":"Gold / Silver / Crystal",
+		"tag": "ending",
+		"id": "170"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/dqaankqa/116%20Opening%20Demo%20%28Crystal%29.mp3",
+		"name": "Opening : Crystal Version",
+		"game":"Crystal",
+		"tag": "opening",
+		"id": "171"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/msqbuztc/117%20Title%20%28Crystal%29.mp3",
+		"name": "Title : Crystal Version",
+		"game":"Crystal",
+		"tag": "opening",
+		"id": "172"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/wchattdb/112%20Pok%C3%A9mon%20Communications%20Center.mp3",
+		"name": "Pokémon Communications Center",
+		"game":"Crystal",
+		"tag": "misc",
+		"id": "173"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/nrfjremd/113%20Pok%C3%A9mon%20Mobile%20System%20Menu.mp3",
+		"name": "Pokémon Mobile System Menu",
+		"game":"Crystal",
+		"tag": "misc",
+		"id": "174"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/crjlbiqe/114%20Pok%C3%A9mon%20Mobile%20System.mp3",
+		"name": "Pokémon Mobile System",
+		"game":"Crystal",
+		"tag": "misc",
+		"id": "175"
 	}
 ]
