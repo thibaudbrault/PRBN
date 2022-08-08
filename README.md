@@ -12,7 +12,7 @@
 
 <p align="center">Listen to Pokémon games soundtracks with this custom minimalist audio player</p>  
 <div align="center">
-  <a href="https://prbn.netlify.app/">Live version</a>  
+  <a href="https://prbn.netlify.app/">LIVE VERSION</a>  
 </div>  
 
 <details open="open">  
