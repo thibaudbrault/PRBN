@@ -1,6 +1,7 @@
-<div align='center'>
+<div align="center">  
 
-    ![PRBN](public/PRBN.png)
+  ![PRBN](public/PRBN.png)  
+    
 </div>
 
 ---
