@@ -19,7 +19,7 @@ export const Rotate = keyframes`
 `;
 
 export const Cover = styled(Image)`
-	border: 1px solid ${({ theme }) => theme.light} !important;
+	border: 2px solid ${({ theme }) => theme.light} !important;
 	border-radius: 50%;
 
 	&.animation {

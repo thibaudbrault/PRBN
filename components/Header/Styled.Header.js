@@ -73,7 +73,14 @@ export const Dropdown = styled.div`
 `
 
 export const OptionTitle = styled.li`
-	font-size: 2rem;
+	display: block;
+	font-size: 2.5rem;
 	font-weight: 700;
 	color: ${({ theme }) => theme.gold};
+	border-top: 2px solid ${({ theme }) => theme.gold};
+	cursor: default;
+
+	&:first-of-type {
+		border-top: none;
+	}
 `;

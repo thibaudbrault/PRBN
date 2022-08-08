@@ -73,9 +73,9 @@ export default function Header({ curTrack, setCurTrack, game, setGame, filteredM
 					{isOpenTrack && (
 						<ol>
 							<OptionTitle style={
-								(game !== 'red / blue / yellow') || (game !== 'all') || (game !== 'Select A Track') 
+								game !== 'red / blue / yellow' && game !== 'all' && game !== 'Select A Game'
 									? {display: 'none'}
-									: {display: 'inline'}
+									: {display: 'block'}
 								}>
 								Red / Blue / Yellow
 							</OptionTitle>
@@ -85,7 +85,11 @@ export default function Header({ curTrack, setCurTrack, game, setGame, filteredM
 										{m?.name}
 									</li>
 							))}
-							<OptionTitle>
+							<OptionTitle style={
+								game !== 'gold / silver / crystal' && game !== 'all' && game !== 'Select A Game'
+									? {display: 'none'}
+									: {display: 'block'}
+								}>
 								Gold / Silver / Crystal
 							</OptionTitle>
 							{filteredMusics?.map((m) => (

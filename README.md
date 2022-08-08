@@ -1,6 +1,6 @@
-<h1 align="center">
-    PRBN
-</h1>
+<div align='center'>
+    <img src='PRBN.png'>
+</div>
 
 ---
 
