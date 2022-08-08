@@ -1,5 +1,6 @@
 <div align='center'>
-    <img src='PRBN.png'>
+
+    ![PRBN](public/PRBN.png)
 </div>
 
 ---
