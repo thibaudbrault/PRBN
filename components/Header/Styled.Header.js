@@ -83,4 +83,4 @@ export const OptionTitle = styled.li`
 	&:first-of-type {
 		border-top: none;
 	}
-`;
+`

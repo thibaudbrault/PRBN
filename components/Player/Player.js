@@ -23,7 +23,12 @@ import { TiArrowLoop } from 'react-icons/ti'
 
 import Info from './Info/Info'
 
-export default function Player({ curTrack, setCurTrack, game, filteredMusics }) {
+export default function Player({
+	curTrack,
+	setCurTrack,
+	game,
+	filteredMusics,
+}) {
 	const [isPlaying, setIsPlaying] = useState(false)
 	const [duration, setDuration] = useState(0)
 	const [curTime, setCurTime] = useState(0)
@@ -52,7 +57,7 @@ export default function Player({ curTrack, setCurTrack, game, filteredMusics }) 
 		audio.current.currentTime = progressBar.current.value
 		setCurTime(progressBar.current.value)
 	}
-	
+
 	const rangeDot = useCallback(() => {
 		progressBar.current.value = audio.current.currentTime
 		setCurTime(progressBar.current.value)
@@ -91,32 +96,27 @@ export default function Player({ curTrack, setCurTrack, game, filteredMusics }) 
 	}
 
 	const next = useCallback(() => {
-		if (game === 'red / blue / yellow' && curTrack === 56) {
+		if (shuffled) {
+			setCurTrack(Math.floor(Math.random() * 174) + 1)
+		} else if (looped) {
+			setCurTrack(curTrack)
+			setCurTime(0)
+		} else if (game === 'red / blue / yellow' && curTrack === 56) {
 			setCurTrack(curTrack)
 			setIsPlaying(false)
-			alert('Red / Blue / Yellow soundtrack ended')
 		} else if (game === 'gold / silver / crystal' && curTrack === 174) {
 			setCurTrack(curTrack)
 			setIsPlaying(false)
-			alert('Gold / Silver / Crystal soundtrack ended')
 		} else {
 			setCurTrack(curTrack + 1)
 			setIsPlaying(false)
 			rangeDot()
 		}
-	}, [game, curTrack, setCurTrack, rangeDot])
+	}, [shuffled, looped, game, curTrack, setCurTrack, rangeDot])
 
 	const loop = () => {
 		setLooped(!looped)
 	}
-
-	useEffect(() => {
-		if(looped && curTime == duration) {
-			progressBar.current.value === 0
-			setCurTime(progressBar.current.value)
-			setIsPlaying(true)
-		}
-	}, [curTime, looped, duration])
 
 	const canPlay = () => {
 		setIsPlaying(true)
@@ -125,8 +125,6 @@ export default function Player({ curTrack, setCurTrack, game, filteredMusics }) 
 	const shuffle = () => {
 		setShuffled(!shuffled)
 	}
-
-	console.log(curTrack)
 
 	return (
 		<Main>
@@ -151,12 +149,10 @@ export default function Player({ curTrack, setCurTrack, game, filteredMusics }) 
 						onCanPlay={canPlay}
 						autoPlay
 					></audio>
-					<MoveButton title='Loop' onClick={loop}
-						style={
-							looped 
-								? {color: '#A1946B'}
-								: {color: '#DDDDDD'}
-						}
+					<MoveButton
+						title='Loop'
+						onClick={loop}
+						style={looped ? { color: '#A1946B' } : { color: '#DDDDDD' }}
 					>
 						<TiArrowLoop />
 					</MoveButton>
@@ -175,12 +171,10 @@ export default function Player({ curTrack, setCurTrack, game, filteredMusics }) 
 					<MoveButton title='Next track' onClick={next}>
 						<TbPlayerTrackNext />
 					</MoveButton>
-					<MoveButton title='Shuffle' onClick={shuffle}
-						style={
-							shuffled 
-								? {color: '#A1946B'}
-								: {color: '#DDDDDD'}
-						}
+					<MoveButton
+						title='Shuffle'
+						onClick={shuffle}
+						style={shuffled ? { color: '#A1946B' } : { color: '#DDDDDD' }}
 					>
 						<TbArrowsShuffle2 />
 					</MoveButton>

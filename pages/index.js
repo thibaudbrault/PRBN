@@ -17,7 +17,6 @@ const Layout = styled.div`
 `
 
 export default function Home() {
-
 	let [curTrack, setCurTrack] = useState(0)
 	const [game, setGame] = useState('Select A Game')
 	const [filteredMusics, setFilteredMusics] = useState([])
@@ -44,8 +43,20 @@ export default function Home() {
 			<ThemeProvider theme={theme}>
 				<GlobalStyles />
 				<Layout>
-					<Header curTrack={curTrack} setCurTrack={setCurTrack} game={game} setGame={setGame} filteredMusics={filteredMusics} setFilteredMusics={setFilteredMusics} />
-					<Player curTrack={curTrack} setCurTrack={setCurTrack} game={game} filteredMusics={filteredMusics} />
+					<Header
+						curTrack={curTrack}
+						setCurTrack={setCurTrack}
+						game={game}
+						setGame={setGame}
+						filteredMusics={filteredMusics}
+						setFilteredMusics={setFilteredMusics}
+					/>
+					<Player
+						curTrack={curTrack}
+						setCurTrack={setCurTrack}
+						game={game}
+						filteredMusics={filteredMusics}
+					/>
 					<Footer />
 				</Layout>
 			</ThemeProvider>

@@ -1,7 +1,7 @@
-<div align="center">  
+<div align="center">
 
-  ![PRBN](public/PRBN.png)  
-    
+![PRBN](public/PRBN.png)
+
 </div>
 
 ---
@@ -13,7 +13,7 @@
 <p align="center">Listen to Pokémon games soundtracks with this custom minimalist audio player</p>  
 <div align="center">
   <a href="https://prbn.netlify.app/">LIVE VERSION</a>  
-</div>  
+</div>
 
 <details open="open">  
   <summary>Table of contents</summary>
@@ -25,7 +25,7 @@
 
 </details>
 
-<h2 id="roadmap">Roadmap</h2>  
+<h2 id="roadmap">Roadmap</h2>
 
 ✅Listen to Gen 1 and Gen 2 soundtracks  
 ✅Baiscs audio player functions : play / pause, next, previous, move 10 seconds forward / backward  
@@ -36,7 +36,7 @@
 ✅Responsive
 
 🛠Shuffle and loop functions  
-🛠Move forward doesn't work  
+🛠Move forward doesn't work
 
 🔜Add more generations  
 🔜Make it works offline with caching
@@ -54,21 +54,25 @@
 To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
 
 #### Clone this repository
+
 ```
 git clone [https://github.com/thibaudbrault/PRBN.git]
 ```
 
 #### Go into the repository
-``` bash
+
+```bash
 cd prbn
 ```
 
 #### Install dependencies
-``` bash
+
+```bash
 npm install
 ```
 
 #### Run the app
-``` bash
+
+```bash
 npm start
 ```

@@ -16,7 +16,7 @@ export const Rotate = keyframes`
 	to {
 		transform: rotate(359deg);
 	}
-`;
+`
 
 export const Cover = styled(Image)`
 	border: 2px solid ${({ theme }) => theme.light} !important;

@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 export const theme = {
 	light: '#DDDDDD',
 	dark: '#151515',
-    gold: '#A1946B',
+	gold: '#A1946B',
 	lato: `'Lato', sans-serif`,
 	wendy: `'Wendy One', sans-serif`,
 }

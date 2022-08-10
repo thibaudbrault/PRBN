@@ -39,7 +39,10 @@ export default class MyDocument extends Document {
 		return (
 			<Html lang='en'>
 				<Head>
-					<meta name='description' content='Listen to every pokémon games ost' />
+					<meta
+						name='description'
+						content='Listen to every pokémon games ost'
+					/>
 					<link rel='shortcut icon' href='/favicon.ico' />
 					<link
 						href='https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap'
