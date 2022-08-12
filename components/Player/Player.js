@@ -74,25 +74,30 @@ export default function Player({
 			animationRef.current = requestAnimationFrame(rangeDot)
 		}
 	}, [isPlaying, rangeDot])
+	
+	const backward = () => {
+		progressBar.current.value = Number((progressBar.current.value - 10))
+		changeRange()
+	}
+
+	const forward = () => {
+		progressBar.current.value = Number((progressBar.current.value + 10))
+		changeRange()
+	}
 
 	const previous = () => {
-		if (curTrack === 0) {
+		if (shuffled) {
+			setCurTrack(Math.floor(Math.random() * 174) + 1)
+		} else if (looped) {
 			setCurTrack(curTrack)
+		} else if (game === 'gold / silver / crystal' && curTrack === 57) {
+			setCurTrack(curTrack)
+			setIsPlaying(false)
 		} else {
 			setCurTrack(curTrack - 1)
 			setIsPlaying(false)
 			rangeDot()
 		}
-	}
-
-	const backward = () => {
-		progressBar.current.value = Number((progressBar.current.value -= 10))
-		changeRange()
-	}
-
-	const forward = () => {
-		progressBar.current.value = Number((progressBar.current.value += 10))
-		changeRange()
 	}
 
 	const next = useCallback(() => {
@@ -118,12 +123,12 @@ export default function Player({
 		setLooped(!looped)
 	}
 
-	const canPlay = () => {
-		setIsPlaying(true)
-	}
-
 	const shuffle = () => {
 		setShuffled(!shuffled)
+	}
+
+	const canPlay = () => {
+		setIsPlaying(true)
 	}
 
 	return (
