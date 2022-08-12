@@ -36,7 +36,7 @@
 ✅Responsive
 
 🛠Loop function  
-🛠Move forward doesn't work
+🛠Duration of the first track is '0' when loading the site  
 
 🔜Add more generations  
 🔜Make it works offline with caching
