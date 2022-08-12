@@ -5,15 +5,27 @@ import musics from '/helpers/musics.json'
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
 
 export default function Header({
-	curTrack,
 	setCurTrack,
 	game,
-	setGame,
-	filteredMusics,
-	setFilteredMusics,
+	setGame
 }) {
 	const [isOpenGame, setIsOpenGame] = useState(false)
 	const [isOpenTrack, setIsOpenTrack] = useState(false)
+	const [filteredMusics, setFilteredMusics] = useState([])
+
+	useEffect(() => {
+		setFilteredMusics(
+			musics.filter((m) => {
+				if (game === 'all' || game === 'Select A Game') {
+					return m?.id > 0
+				} else if (game === 'red / blue / yellow') {
+					return m?.id < 58 && m?.id > 0
+				} else if (game === 'gold / silver / crystal') {
+					return m?.id > 57
+				}
+			})
+		)
+	}, [game])
 
 	const toggleOpenGame = () => {
 		setIsOpenGame(!isOpenGame)

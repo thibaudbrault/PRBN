@@ -26,8 +26,7 @@ import Info from './Info/Info'
 export default function Player({
 	curTrack,
 	setCurTrack,
-	game,
-	filteredMusics,
+	game
 }) {
 	const [isPlaying, setIsPlaying] = useState(false)
 	const [duration, setDuration] = useState(0)
@@ -39,11 +38,11 @@ export default function Player({
 	const progressBar = useRef()
 	const animationRef = useRef()
 
-	useEffect(() => {
+	const onLoadedMetadata = () => {
 		const seconds = Math.floor(audio?.current?.duration)
 		setDuration(seconds)
 		progressBar.current.max = seconds
-	}, [audio?.current?.loadedmetadata, audio?.current?.readyState])
+	}
 
 	const calculateTime = (secs) => {
 		const minutes = Math.floor(secs / 60)
@@ -76,20 +75,18 @@ export default function Player({
 	}, [isPlaying, rangeDot])
 	
 	const backward = () => {
-		progressBar.current.value = Number((progressBar.current.value - 10))
+		progressBar.current.value = Number(progressBar.current.value) - 10
 		changeRange()
 	}
 
 	const forward = () => {
-		progressBar.current.value = Number((progressBar.current.value + 10))
+		progressBar.current.value = Number(progressBar.current.value) + 10
 		changeRange()
 	}
 
 	const previous = () => {
 		if (shuffled) {
 			setCurTrack(Math.floor(Math.random() * 174) + 1)
-		} else if (looped) {
-			setCurTrack(curTrack)
 		} else if (game === 'gold / silver / crystal' && curTrack === 57) {
 			setCurTrack(curTrack)
 			setIsPlaying(false)
@@ -100,12 +97,17 @@ export default function Player({
 		}
 	}
 
+	const loop = () => {
+		setLooped(!looped)
+	}
+
 	const next = useCallback(() => {
-		if (shuffled) {
-			setCurTrack(Math.floor(Math.random() * 174) + 1)
-		} else if (looped) {
-			setCurTrack(curTrack)
+		if (looped) {
+			
 			setCurTime(0)
+			audio.loop = true
+		} else if (shuffled) {
+			setCurTrack(Math.floor(Math.random() * 174) + 1)
 		} else if (game === 'red / blue / yellow' && curTrack === 56) {
 			setCurTrack(curTrack)
 			setIsPlaying(false)
@@ -117,11 +119,7 @@ export default function Player({
 			setIsPlaying(false)
 			rangeDot()
 		}
-	}, [shuffled, looped, game, curTrack, setCurTrack, rangeDot])
-
-	const loop = () => {
-		setLooped(!looped)
-	}
+	}, [looped, shuffled, game, curTrack, setCurTrack, rangeDot])
 
 	const shuffle = () => {
 		setShuffled(!shuffled)
@@ -130,6 +128,8 @@ export default function Player({
 	const canPlay = () => {
 		setIsPlaying(true)
 	}
+
+	console.log(audio.loop)
 
 	return (
 		<Main>
@@ -142,6 +142,7 @@ export default function Player({
 						type='range'
 						defaultValue={0}
 						onChange={changeRange}
+						step='0.05'
 					/>
 					<p>{duration && !isNaN(duration) && calculateTime(duration)}</p>
 				</Time>
@@ -152,6 +153,7 @@ export default function Player({
 						preload='metadata'
 						onEnded={next}
 						onCanPlay={canPlay}
+						onLoadedMetadata={onLoadedMetadata}
 						autoPlay
 					></audio>
 					<MoveButton

@@ -19,21 +19,6 @@ const Layout = styled.div`
 export default function Home() {
 	let [curTrack, setCurTrack] = useState(0)
 	const [game, setGame] = useState('Select A Game')
-	const [filteredMusics, setFilteredMusics] = useState([])
-
-	useEffect(() => {
-		setFilteredMusics(
-			musics.filter((m) => {
-				if (game === 'all' || game === 'Select A Game') {
-					return m?.id > 0
-				} else if (game === 'red / blue / yellow') {
-					return m?.id < 58 && m?.id > 0
-				} else if (game === 'gold / silver / crystal') {
-					return m?.id > 57
-				}
-			})
-		)
-	}, [game])
 
 	return (
 		<>
@@ -48,14 +33,11 @@ export default function Home() {
 						setCurTrack={setCurTrack}
 						game={game}
 						setGame={setGame}
-						filteredMusics={filteredMusics}
-						setFilteredMusics={setFilteredMusics}
 					/>
 					<Player
 						curTrack={curTrack}
 						setCurTrack={setCurTrack}
 						game={game}
-						filteredMusics={filteredMusics}
 					/>
 					<Footer />
 				</Layout>
