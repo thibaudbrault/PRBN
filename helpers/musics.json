@@ -1044,6 +1044,27 @@
 		"id": "149"
 	},
 	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/qyycmrht/094%20Pewter%20City.mp3",
+		"name": "Pewter City",
+		"game": "Gold / Silver / Crystal",
+		"tag": "city",
+		"id": "149.1"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/mwgegifv/095%20Route%203.mp3",
+		"name": "Route 3",
+		"game": "Gold / Silver / Crystal",
+		"tag": "route",
+		"id": "149.2"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/eklyepah/096%20Trainers%27%20Eyes%20Meet%20%28Suspicious%20Figure%202%29.mp3",
+		"name": "Trainer Intro : Suspicious Figure 2",
+		"game": "Gold / Silver / Crystal",
+		"tag": "battle",
+		"id": "149.3"
+	},
+	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ypqnykhq/097%20Mt.%20Moon.mp3",
 		"name": "Mt. Moon",
 		"game": "Gold / Silver / Crystal",

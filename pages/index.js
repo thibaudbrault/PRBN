@@ -34,11 +34,7 @@ export default function Home() {
 						game={game}
 						setGame={setGame}
 					/>
-					<Player
-						curTrack={curTrack}
-						setCurTrack={setCurTrack}
-						game={game}
-					/>
+					<Player curTrack={curTrack} setCurTrack={setCurTrack} game={game} />
 					<Footer />
 				</Layout>
 			</ThemeProvider>

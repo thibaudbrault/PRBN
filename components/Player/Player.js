@@ -23,11 +23,7 @@ import { TiArrowLoop } from 'react-icons/ti'
 
 import Info from './Info/Info'
 
-export default function Player({
-	curTrack,
-	setCurTrack,
-	game
-}) {
+export default function Player({ curTrack, setCurTrack, game }) {
 	const [isPlaying, setIsPlaying] = useState(false)
 	const [duration, setDuration] = useState(0)
 	const [curTime, setCurTime] = useState(0)
@@ -73,7 +69,7 @@ export default function Player({
 			animationRef.current = requestAnimationFrame(rangeDot)
 		}
 	}, [isPlaying, rangeDot])
-	
+
 	const backward = () => {
 		progressBar.current.value = Number(progressBar.current.value) - 10
 		changeRange()
@@ -85,7 +81,9 @@ export default function Player({
 	}
 
 	const previous = () => {
-		if (shuffled) {
+		if (curTrack === 0) {
+			setCurTrack(curTrack)
+		} else if (shuffled) {
 			setCurTrack(Math.floor(Math.random() * 174) + 1)
 		} else if (game === 'gold / silver / crystal' && curTrack === 57) {
 			setCurTrack(curTrack)
@@ -103,7 +101,6 @@ export default function Player({
 
 	const next = useCallback(() => {
 		if (looped) {
-			
 			setCurTime(0)
 			audio.loop = true
 		} else if (shuffled) {
@@ -128,8 +125,6 @@ export default function Player({
 	const canPlay = () => {
 		setIsPlaying(true)
 	}
-
-	console.log(audio.loop)
 
 	return (
 		<Main>

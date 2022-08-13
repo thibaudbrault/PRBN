@@ -4,11 +4,7 @@ import musics from '/helpers/musics.json'
 
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
 
-export default function Header({
-	setCurTrack,
-	game,
-	setGame
-}) {
+export default function Header({ setCurTrack, game, setGame }) {
 	const [isOpenGame, setIsOpenGame] = useState(false)
 	const [isOpenTrack, setIsOpenTrack] = useState(false)
 	const [filteredMusics, setFilteredMusics] = useState([])

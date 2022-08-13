@@ -19,9 +19,7 @@ export default function Info({ musics, curTrack, isPlaying }) {
 			musics?.[curTrack]?.game === 'Crystal'
 		) {
 			setCover(goldSilver)
-		} else if (
-			musics?.[curTrack]?.game === 'Ruby / Sapphire / Emerald'
-		) {
+		} else if (musics?.[curTrack]?.game === 'Ruby / Sapphire / Emerald') {
 			setCover(rubySapphire)
 		}
 	}, [curTrack, musics])
