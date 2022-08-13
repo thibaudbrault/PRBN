@@ -17,9 +17,9 @@ export default function Header({ setCurTrack, game, setGame }) {
 				} else if (game === 'red / blue / yellow') {
 					return m?.id < 58 && m?.id > 0
 				} else if (game === 'gold / silver / crystal') {
-					return m?.id < 176 && m?.id > 57
+					return m?.id < 179 && m?.id > 57
 				} else if (game === 'ruby / sapphire / emerald') {
-					return m?.id > 175
+					return m?.id > 178
 				}
 			})
 		)
@@ -132,7 +132,7 @@ export default function Header({ setCurTrack, game, setGame }) {
 							</OptionTitle>
 							{filteredMusics?.map(
 								(m) =>
-									m?.id < 176 &&
+									m?.id < 179 &&
 									m?.id > 57 && (
 										<li key={m?.name + m?.id} onClick={() => selectTrack(m)}>
 											{m?.name}
@@ -152,7 +152,7 @@ export default function Header({ setCurTrack, game, setGame }) {
 							</OptionTitle>
 							{filteredMusics?.map(
 								(m) =>
-									m?.id > 175 && (
+									m?.id > 178 && (
 										<li key={m?.name + m?.id} onClick={() => selectTrack(m)}>
 											{m?.name}
 										</li>

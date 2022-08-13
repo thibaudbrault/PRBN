@@ -1048,580 +1048,580 @@
 		"name": "Pewter City",
 		"game": "Gold / Silver / Crystal",
 		"tag": "city",
-		"id": "149.1"
+		"id": "150"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/mwgegifv/095%20Route%203.mp3",
 		"name": "Route 3",
 		"game": "Gold / Silver / Crystal",
 		"tag": "route",
-		"id": "149.2"
+		"id": "151"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/eklyepah/096%20Trainers%27%20Eyes%20Meet%20%28Suspicious%20Figure%202%29.mp3",
 		"name": "Trainer Intro : Suspicious Figure 2",
 		"game": "Gold / Silver / Crystal",
 		"tag": "battle",
-		"id": "149.3"
+		"id": "152"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ypqnykhq/097%20Mt.%20Moon.mp3",
 		"name": "Mt. Moon",
 		"game": "Gold / Silver / Crystal",
 		"tag": "route",
-		"id": "150"
+		"id": "153"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/wmczdatm/098%20Route%201.mp3",
 		"name": "Route 1",
 		"game": "Gold / Silver / Crystal",
 		"tag": "route",
-		"id": "151"
+		"id": "154"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/lhlnqicx/099%20Pallet%20Town.mp3",
 		"name": "Pallet Town",
 		"game": "Gold / Silver / Crystal",
 		"tag": "city",
-		"id": "152"
+		"id": "155"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/enaxrbgr/100%20Professor%20Oak.mp3",
 		"name": "Professor Oak",
 		"game": "Gold / Silver / Crystal",
 		"tag": "misc",
-		"id": "153"
+		"id": "156"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/mjixomjk/101%20Pok%C3%A9dex%20Evaluation...%20Complete%21.mp3",
 		"name": "Pokédex Evaluation : Complete",
 		"game": "Gold / Silver / Crystal",
 		"tag": "fanfare",
-		"id": "154"
+		"id": "157"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/hpqjubwu/102%20Trainers%27%20Eyes%20Meet%20%28Girl%202%29.mp3",
 		"name": "Trainer Intro : Girl 2",
 		"game": "Gold / Silver / Crystal",
 		"tag": "battle",
-		"id": "155"
+		"id": "158"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/hvtialgt/103%20Battle%21%20Trainer%20%28Kanto%29.mp3",
 		"name": "Battle : Trainer (Kanto)",
 		"game": "Gold / Silver / Crystal",
 		"tag": "battle",
-		"id": "156"
+		"id": "159"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/kbswlkkb/104%20Pok%C3%A9gear%20Radio%20-%20Professor%20Oak%27s%20Pok%C3%A9mon%20Talk.mp3",
 		"name": "Pokégear Radio : Professor Oak's Pokémon Talk",
 		"game": "Gold / Silver / Crystal",
 		"tag": "misc",
-		"id": "157"
+		"id": "160"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/sbdxdibk/105%20Pok%C3%A9gear%20Radio%20-%20Pok%C3%A9mon%20March.mp3",
 		"name": "Pokégear Radio : Pokémon March",
 		"game": "Gold / Silver / Crystal",
 		"tag": "misc",
-		"id": "158"
+		"id": "161"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/ksnkpjbq/106%20Pok%C3%A9gear%20Radio%20-%20Pok%C3%A9mon%20Lullaby.mp3",
 		"name": "Pokégear Radio : Pokémon Lullaby",
 		"game": "Gold / Silver / Crystal",
 		"tag": "misc",
-		"id": "159"
+		"id": "162"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/igbklnot/107%20Pok%C3%A9gear%20Radio%20-%20Buena%27s%20Password.mp3",
 		"name": "Pokégear Radio : Buena's Password",
 		"game": "Gold / Silver / Crystal",
 		"tag": "misc",
-		"id": "160"
+		"id": "163"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/pgtnqslz/108%20Pok%C3%A9gear%20Radio%20-%20Pok%C3%A9mon%20Channel.mp3",
 		"name": "Pokégear Radio : Pokémon Channel",
 		"game": "Gold / Silver / Crystal",
 		"tag": "misc",
-		"id": "161"
+		"id": "164"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/taipkvwl/109%20Pok%C3%A9gear%20Radio%20-%20Pok%C3%A9%20Flute.mp3",
 		"name": "Pokégear Radio : Poké Flute",
 		"game": "Gold / Silver / Crystal",
 		"tag": "misc",
-		"id": "162"
+		"id": "165"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/jdvmdley/110%20Battle%20Tower%20Reception%20Desk.mp3",
 		"name": "Battle Tower Reception Desk",
 		"game": "Gold / Silver / Crystal",
 		"tag": "misc",
-		"id": "163"
+		"id": "166"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/npbeqlaa/111%20Battle%20Tower.mp3",
 		"name": "Battle Tower",
 		"game": "Gold / Silver / Crystal",
 		"tag": "house",
-		"id": "164"
+		"id": "167"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/hrtdhvhj/118%20Victory%20Road.mp3",
 		"name": "Victory Road",
 		"game": "Gold / Silver / Crystal",
 		"tag": "route",
-		"id": "165"
+		"id": "168"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/huxfsoag/119%20Pok%C3%A9mon%20League.mp3",
 		"name": "Pokémon League",
 		"game": "Gold / Silver / Crystal",
 		"tag": "battle",
-		"id": "166"
+		"id": "169"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/sgjalmzw/120%20Battle%21%20Champion.mp3",
 		"name": "Battle : Champion",
 		"game": "Gold / Silver / Crystal",
 		"tag": "battle",
-		"id": "167"
+		"id": "170"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/uishyosc/121%20The%20Hall%20of%20Fame.mp3",
 		"name": "Hall Of Fame",
 		"game": "Gold / Silver / Crystal",
 		"tag": "misc",
-		"id": "168"
+		"id": "171"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/xsntoqeu/122%20Ending%20Theme.mp3",
 		"name": "Ending",
 		"game": "Gold / Silver / Crystal",
 		"tag": "ending",
-		"id": "169"
+		"id": "172"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/shunjqfm/123%20The%20End.mp3",
 		"name": "The End",
 		"game": "Gold / Silver / Crystal",
 		"tag": "ending",
-		"id": "170"
+		"id": "173"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/dqaankqa/116%20Opening%20Demo%20%28Crystal%29.mp3",
 		"name": "Opening : Crystal Version",
 		"game": "Crystal",
 		"tag": "opening",
-		"id": "171"
+		"id": "174"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/msqbuztc/117%20Title%20%28Crystal%29.mp3",
 		"name": "Title Screen : Crystal Version",
 		"game": "Crystal",
 		"tag": "opening",
-		"id": "172"
+		"id": "175"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/wchattdb/112%20Pok%C3%A9mon%20Communications%20Center.mp3",
 		"name": "Pokémon Communications Center",
 		"game": "Crystal",
 		"tag": "misc",
-		"id": "173"
+		"id": "176"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/nrfjremd/113%20Pok%C3%A9mon%20Mobile%20System%20Menu.mp3",
 		"name": "Pokémon Mobile System Menu",
 		"game": "Crystal",
 		"tag": "misc",
-		"id": "174"
+		"id": "177"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-gold-silver-crystal/crjlbiqe/114%20Pok%C3%A9mon%20Mobile%20System.mp3",
 		"name": "Pokémon Mobile System",
 		"game": "Crystal",
 		"tag": "misc",
-		"id": "175"
+		"id": "178"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/stwwttpsew/1-01%20Title%20Demo%201%20%28Departure%29.mp3",
 		"name": "Opening : Departure",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "opening",
-		"id": "176"
+		"id": "179"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/lvnunohwsz/1-02%20Title%20Demo%202%20%28Double%20Battle%29.mp3",
 		"name": "Opening : Double Battles",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "opening",
-		"id": "177"
+		"id": "180"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/ybanfiwtfw/1-03%20Title%20Demo%203%20%28Main%20Theme%29.mp3",
 		"name": "Title Screen",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "opening",
-		"id": "178"
+		"id": "181"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/xvkywrvytx/1-04%20Opening%20Selection.mp3",
 		"name": "Introductions",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "opening",
-		"id": "179"
+		"id": "182"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/uczxytjxcq/1-05%20Littleroot%20Town.mp3",
 		"name": "Littleroot Town",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "city",
-		"id": "180"
+		"id": "183"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/dishkklbee/1-06%20Birch%20Research%20Institute.mp3",
 		"name": "Birch Pokémon Lab",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "house",
-		"id": "181"
+		"id": "184"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/sjyvbhwrjf/1-07%20May%20%28Girl%27s%20Theme%29.mp3",
 		"name": "May",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "misc",
-		"id": "182"
+		"id": "185"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/wjbgvcgnxc/1-08%20Help%21.mp3",
 		"name": "H-Help Me",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "misc",
-		"id": "183"
+		"id": "186"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/jujrfrohyi/1-09%20Battle%21%20Wild%20Pokemon.mp3",
 		"name": "Battle : Wild Pokémon",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "184"
+		"id": "187"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/zlfvjrlgwt/1-10%20Wild%20Pokemon%20Defeated%21.mp3",
 		"name": "Victory : Wild Pokémon",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "185"
+		"id": "188"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/irmyonewji/1-11%20Route%20101.mp3",
 		"name": "Route 101",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "route",
-		"id": "186"
+		"id": "189"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/zpmvknftza/1-12%20Oldale%20Town.mp3",
 		"name": "Oldale Town",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "city",
-		"id": "187"
+		"id": "190"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/grsabxolgp/1-13%20Pokemon%20Center.mp3",
 		"name": "Pokémon Center",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "house",
-		"id": "188"
+		"id": "191"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/slwvcnsyhb/1-14%20Recovery.mp3",
 		"name": "Pokémon Healed",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "fanfare",
-		"id": "189"
+		"id": "192"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/qratgvuzlj/1-15%20Look%21%20Little%20Kid.mp3",
 		"name": "Trainer Intro : Youngster",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "190"
+		"id": "193"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/udcfjtmnah/1-16%20Look%21%20Miniskirt.mp3",
 		"name": "Trainer Intro : Lass",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "191"
+		"id": "194"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/krriedhvie/1-17%20Battle%21%20Trainer.mp3",
 		"name": "Battle : Trainer",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "192"
+		"id": "195"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/ubnqrhnxyr/1-18%20Trainer%20Defeated.mp3",
 		"name": "Victory : Trainer",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "193"
+		"id": "196"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/agqeyiecym/1-19%20Improvement.mp3",
 		"name": "Level Up",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "fanfare",
-		"id": "194"
+		"id": "197"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/zlpulgzjic/1-20%20Petalburg%20City.mp3",
 		"name": "Petalburg City",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "city",
-		"id": "195"
+		"id": "198"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/mxsoqpunqa/1-21%20Come%20Along.mp3",
 		"name": "Hurry Along",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "misc",
-		"id": "196"
+		"id": "199"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/tztyfbeeld/1-22%20Route%20104.mp3",
 		"name": "Route 104",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "route",
-		"id": "197"
+		"id": "200"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/rzlnsqmbfo/1-23%20Petalburg%20Forest.mp3",
 		"name": "Petalburg Woods",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "route",
-		"id": "198"
+		"id": "201"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/wqnqcqtvht/1-24%20Aqua%20%26%20Magma%20Teams%20Appear%21.mp3",
 		"name": "Team Magma Appears",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "199"
+		"id": "202"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/ercehwfqpd/1-25%20Aqua%20%26%20Magma%20Team%20Battle%21.mp3",
 		"name": "Battle : Team Aqua / Team Magma",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "200"
+		"id": "203"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/fmpwzwjlqb/1-26%20Aqua%20%26%20Magma%20Teams%20Defeated%21.mp3",
 		"name": "Victory : Team Aqua / Team Magma",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "201"
+		"id": "204"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/eijnfuogyz/1-27%20Rustboro%20City.mp3",
 		"name": "Rustboro City",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "city",
-		"id": "202"
+		"id": "205"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/dmhycgbfrn/1-28%20Pokemon%20Institute.mp3",
 		"name": "Trainer's School",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "house",
-		"id": "203"
+		"id": "206"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/olegpneplj/1-29%20Crossing%20The%20Sea.mp3",
 		"name": "Crossing The Sea",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "misc",
-		"id": "204"
+		"id": "207"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/tcdfqvmbzu/1-30%20Dewford%20Town.mp3",
 		"name": "Dewford Town",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "city",
-		"id": "205"
+		"id": "208"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/oqliaerurb/1-31%20Look%21%20A%20Girl.mp3",
 		"name": "Trainer Intro : Tuber",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "206"
+		"id": "209"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/hsksahfloh/1-32%20Slateport%20City.mp3",
 		"name": "Slateport City",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "city",
-		"id": "207"
+		"id": "210"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/qsxbaloxtx/1-33%20Marine%20Science%20Museum.mp3",
 		"name": "Oceanic Museum",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "house",
-		"id": "208"
+		"id": "211"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/jyiavuxakd/1-34%20Route%20110.mp3",
 		"name": "Route 110",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "route",
-		"id": "209"
+		"id": "212"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/kuctppwhki/1-35%20Cycling.mp3",
 		"name": "Cycling",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "misc",
-		"id": "210"
+		"id": "213"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/skgdpptxvk/1-36%20Game%20Corner.mp3",
 		"name": "Game Corner",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "house",
-		"id": "211"
+		"id": "214"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/mxtvmiyrfv/1-37%20Hit%21.mp3",
 		"name": "Win",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "fanfare",
-		"id": "212"
+		"id": "215"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/xgysrissff/1-38%20Regret.mp3",
 		"name": "Lose",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "fanfare",
-		"id": "213"
+		"id": "216"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/oawnwzqrju/1-39%20BD%20Time.mp3",
 		"name": "Reel Time",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "fanfare",
-		"id": "214"
+		"id": "217"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/ajseuosjia/1-40%20Great%20Success%21.mp3",
 		"name": "Jackpot",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "fanfare",
-		"id": "215"
+		"id": "218"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/drsdpgvaii/1-41%20Verdanturf%20Town.mp3",
 		"name": "Verdanturf Town",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "city",
-		"id": "216"
+		"id": "219"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/nxomzbzuku/1-42%20Route%20113.mp3",
 		"name": "Route 113",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "route",
-		"id": "217"
+		"id": "220"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/twyqgejnpz/1-43%20My%20Twins.mp3",
 		"name": "Twins",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "218"
+		"id": "221"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/rxyvrsmlua/1-44%20Fall%20Arbor%20Town.mp3",
 		"name": "Fallarbor Town",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "city",
-		"id": "219"
+		"id": "222"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/ouxxqtbuco/1-45%20Rope%20Way.mp3",
 		"name": "Cable Car",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "fanfare",
-		"id": "220"
+		"id": "223"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/erfwnjkpkf/1-46%20Chimney%20Mountain.mp3",
 		"name": "Mt. Chimney",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "route",
-		"id": "221"
+		"id": "224"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/adoqanvhhf/1-47%20Look%21%20Giant.mp3",
 		"name": "Trainer Intro : Hiker",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "222"
+		"id": "225"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/wgudcglyxu/1-48%20Route%20111.mp3",
 		"name": "Route 111",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "route",
-		"id": "223"
+		"id": "226"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/ngekzqwxoj/1-49%20Gym%20Theme.mp3",
 		"name": "Pokémon Gym",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "house",
-		"id": "224"
+		"id": "227"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/zghazzttsu/1-50%20Battle%21%20Gym%20Leader.mp3",
 		"name": "Battle : Gym Leader",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "225"
+		"id": "228"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/rzgwxycmky/1-51%20Gym%20Leader%20Defeated%21.mp3",
 		"name": "Victory : Gym Leader",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "battle",
-		"id": "226"
+		"id": "229"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/vtzucekvfx/1-52%20Get%20Badge%21.mp3",
 		"name": "Obtained A Badge",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "fanfare",
-		"id": "227"
+		"id": "230"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/cchogaxssq/1-53%20Get%20Technical%20Machine.mp3",
 		"name": "Obtained A TM",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "fanfare",
-		"id": "228"
+		"id": "231"
 	},
 	{
 		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/jokwybglwm/1-54%20Surfing%20Theme.mp3",
 		"name": "Surf",
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "misc",
-		"id": "229"
+		"id": "232"
 	}
 ]
