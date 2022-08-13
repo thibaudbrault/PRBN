@@ -21,7 +21,9 @@ export default function Header({
 				} else if (game === 'red / blue / yellow') {
 					return m?.id < 58 && m?.id > 0
 				} else if (game === 'gold / silver / crystal') {
-					return m?.id > 57
+					return m?.id < 176 && m?.id > 57
+				} else if (game === 'ruby / sapphire / emerald') {
+					return m?.id > 175
 				}
 			})
 		)
@@ -81,6 +83,15 @@ export default function Header({
 							>
 								Gold / Silver / Crystal
 							</li>
+							<li
+								value='ruby / sapphire / emerald'
+								onClick={() => {
+									setGame('ruby / sapphire / emerald')
+									setIsOpenGame(false)
+								}}
+							>
+								Ruby / Sapphire / Emerald
+							</li>
 						</ol>
 					)}
 				</Dropdown>
@@ -127,6 +138,25 @@ export default function Header({
 								(m) =>
 									m?.id < 176 &&
 									m?.id > 57 && (
+										<li key={m?.name + m?.id} onClick={() => selectTrack(m)}>
+											{m?.name}
+										</li>
+									)
+							)}
+							<OptionTitle
+								style={
+									game !== 'ruby / sapphire / emerald' &&
+									game !== 'all' &&
+									game !== 'Select A Game'
+										? { display: 'none' }
+										: { display: 'block' }
+								}
+							>
+								Ruby / Sapphire / Emerald
+							</OptionTitle>
+							{filteredMusics?.map(
+								(m) =>
+									m?.id > 175 && (
 										<li key={m?.name + m?.id} onClick={() => selectTrack(m)}>
 											{m?.name}
 										</li>

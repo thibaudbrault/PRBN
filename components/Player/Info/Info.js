@@ -3,6 +3,7 @@ import { InfoH2, H3, InfoSection, Cover } from './Styled.Info'
 
 import redBlue from '/public/pokemon_red_blue.jpg'
 import goldSilver from '/public/pokemon_gold_silver_crystal.jpg'
+import rubySapphire from '/public/pokemon_ruby_sapphire_emerald.webp'
 
 export default function Info({ musics, curTrack, isPlaying }) {
 	const [cover, setCover] = useState('')
@@ -18,6 +19,10 @@ export default function Info({ musics, curTrack, isPlaying }) {
 			musics?.[curTrack]?.game === 'Crystal'
 		) {
 			setCover(goldSilver)
+		} else if (
+			musics?.[curTrack]?.game === 'Ruby / Sapphire / Emerald'
+		) {
+			setCover(rubySapphire)
 		}
 	}, [curTrack, musics])
 
