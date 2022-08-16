@@ -101,8 +101,9 @@ export default function Player({ curTrack, setCurTrack, game }) {
 
 	const next = useCallback(() => {
 		if (looped) {
+			setCurTrack(curTrack)
+			setIsPlaying(false)
 			setCurTime(0)
-			audio.loop = true
 		} else if (shuffled) {
 			setCurTrack(Math.floor(Math.random() * 174) + 1)
 		} else if (game === 'red / blue / yellow' && curTrack === 56) {
@@ -125,6 +126,8 @@ export default function Player({ curTrack, setCurTrack, game }) {
 	const canPlay = () => {
 		setIsPlaying(true)
 	}
+
+	console.log(curTime)
 
 	return (
 		<Main>
