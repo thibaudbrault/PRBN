@@ -1791,5 +1791,236 @@
 		"game": "Ruby / Sapphire / Emerald",
 		"tag": "misc",
 		"id": "256"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/peovsjytta/2-25%20Heavy%20Rainfall.mp3",
+		"name": "Heavy Rain",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "misc",
+		"id": "257"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/wasczqidnx/2-26%20Dive.mp3",
+		"name": "Dive",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "misc",
+		"id": "258"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/lkljmdzuqi/2-27%20Sootopolis%20City.mp3",
+		"name": "Sootopolis City",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "city",
+		"id": "259"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/dmakedmamz/2-28%20Cave%20of%20Origin%20%26%20Meteor%20Falls.mp3",
+		"name": "Cave Of Origin",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "house",
+		"id": "260"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/azdtqzobia/2-29%20Battle%21%20Ancient%20Pokemon.mp3",
+		"name": "Battle : Super-Ancient Pokémon",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "battle",
+		"id": "261"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/qpdzuznrip/2-30%20Look%21%20Bikini%20Sister.mp3",
+		"name": "Trainer Intro : Swimmer",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "battle",
+		"id": "262"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/mwcbycwejg/2-31%20Ever%20Grande%20City.mp3",
+		"name": "Ever Grande City",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "city",
+		"id": "263"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/ssvzfjcmfg/2-32%20Get%20Berry%21.mp3",
+		"name": "Obtained A Berry",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "fanfare",
+		"id": "264"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/bqmslslhfv/2-33%20Contest%20Lobby.mp3",
+		"name": "Contest Lobby",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "misc",
+		"id": "265"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/lhapixnamd/2-34%20Contest%21.mp3",
+		"name": "Pokémon Contest",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "misc",
+		"id": "266"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/bxsoeymerj/2-35%20Result%20Announcement%21.mp3",
+		"name": "Results Announcement",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "misc",
+		"id": "267"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/mradkndgrk/2-36%20Contest%20Championship.mp3",
+		"name": "Contest Winner",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "misc",
+		"id": "268"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/txsaficmhw/2-37%20Ancient%20Braille%20Cave.mp3",
+		"name": "Sealed Chamber",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "house",
+		"id": "269"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/lhvupdadpa/2-38%20Battle%21%20Regirock%2C%20Regice%2C%20Registeel.mp3",
+		"name": "Battle : Regirock / Regice / Registeel",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "battle",
+		"id": "270"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/uznpnfxtay/2-39%20Trick%20Mansion.mp3",
+		"name": "The Trick House",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "house",
+		"id": "271"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/ocmsjezkna/2-40%20Suterarebune.mp3",
+		"name": "Abandonned Ship",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "house",
+		"id": "272"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/wmxippvvxm/2-41%20Battle%20Tower.mp3",
+		"name": "Battle Tower",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "house",
+		"id": "273"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/azckkfxjbz/2-42%20Champion%20Road.mp3",
+		"name": "Victory Road",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "route",
+		"id": "274"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/eeowrdtwix/2-43%20Look%21%20Elite%20Trainer.mp3",
+		"name": "Trainer Intro : Cooltrainer",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "battle",
+		"id": "275"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/kylrwnqpkc/2-44%20Elite%20Four%20Intro%21.mp3",
+		"name": "Trainer Intro : Elite Four",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "battle",
+		"id": "276"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/jcxebyknon/2-45%20Battle%21%20Elite%20Four.mp3",
+		"name": "Battle : Elite Four",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "battle",
+		"id": "277"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/ivenvctyxx/2-46%20Champion%20Steven%20Stone%21.mp3",
+		"name": "Trainer Intro : Champion Steven",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "battle",
+		"id": "278"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/sfbxzkwljw/2-47%20Decisive%20Battle%21%20VS%20Steven%20Stone.mp3",
+		"name": "Battle : Steven",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "battle",
+		"id": "279"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/lrprnskmet/2-48%20Steven%20Stone%20Defeated%21.mp3",
+		"name": "Victory : Steven",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "battle",
+		"id": "280"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/fkbrfzspgr/2-49%20Glory%20Room.mp3",
+		"name": "Room Of Glory",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "misc",
+		"id": "281"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/kniqusoavn/2-50%20Induction%20Into%20the%20Hall%20of%20Fame.mp3",
+		"name": "Hall Of Fame",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "misc",
+		"id": "282"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/snwngaazih/2-51%20Ending%20Theme.mp3",
+		"name": "Ending",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "ending",
+		"id": "283"
+	},
+	{
+		"link": "https://vgmsite.com/soundtracks/pokemon-sapphire-2002-gba/csungkzooh/2-52%20The%20End.mp3",
+		"name": "The End",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "ending",
+		"id": "284"
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "",
+		"id": "2"
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "",
+		"id": "2"
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "",
+		"id": "2"
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "",
+		"id": "2"
+	},
+	{
+		"link": "",
+		"name": "",
+		"game": "Ruby / Sapphire / Emerald",
+		"tag": "",
+		"id": "2"
 	}
 ]
