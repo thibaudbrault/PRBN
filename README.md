@@ -14,6 +14,7 @@
 <div align="center">
   <a href="https://prbn.netlify.app/">LIVE VERSION</a>  
 </div>
+<br />
 
 <details open="open">  
   <summary>Table of contents</summary>
