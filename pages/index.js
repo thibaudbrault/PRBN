@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import styled, { ThemeProvider } from 'styled-components'
-import musics from '/helpers/musics.json'
 
 import { theme } from '../components/CommonStyles/GlobalStyles'
 import { GlobalStyles } from '../components/CommonStyles/GlobalStyles'
