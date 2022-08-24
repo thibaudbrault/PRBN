@@ -9,6 +9,7 @@ export default function Header({ setCurTrack, game, setGame }) {
 	const [isOpenTrack, setIsOpenTrack] = useState(false)
 	const [filteredMusics, setFilteredMusics] = useState([])
 
+	// filter the tracks played for each game
 	useEffect(() => {
 		setFilteredMusics(
 			musics.filter((m) => {
@@ -25,6 +26,7 @@ export default function Header({ setCurTrack, game, setGame }) {
 		)
 	}, [game])
 
+	// close the 
 	const toggleOpenGame = () => {
 		setIsOpenGame(!isOpenGame)
 		setIsOpenTrack(false)
