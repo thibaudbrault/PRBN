@@ -16,7 +16,9 @@ const Layout = styled.div`
 `
 
 export default function Home() {
+	// track currently played
 	let [curTrack, setCurTrack] = useState(0)
+	// value for the game dropdown
 	const [game, setGame] = useState('Select A Game')
 
 	return (

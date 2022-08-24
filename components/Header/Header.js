@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import { Dropdown, H1, H2, Head, OptionTitle } from './Styled.Header'
-import musics from '/helpers/musics.json'
+import musics from '/data/musics.json'
 
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
 
 export default function Header({ setCurTrack, game, setGame }) {
+
+	// game dropdown
 	const [isOpenGame, setIsOpenGame] = useState(false)
+	// track dropdown
 	const [isOpenTrack, setIsOpenTrack] = useState(false)
+	// use to filter the tracks played
 	const [filteredMusics, setFilteredMusics] = useState([])
 
-	// filter the tracks played for each game
+	// filter the tracks played for the game selected with the game dropdown
 	useEffect(() => {
 		setFilteredMusics(
 			musics.filter((m) => {
@@ -26,16 +30,18 @@ export default function Header({ setCurTrack, game, setGame }) {
 		)
 	}, [game])
 
-	// close the 
+	// open / close the game dropdown and close the track dropdown when the game one is open to avoid overlapping
 	const toggleOpenGame = () => {
 		setIsOpenGame(!isOpenGame)
 		setIsOpenTrack(false)
 	}
 
+	// open / close track dropdown
 	const toggleOpenTrack = () => {
 		setIsOpenTrack(!isOpenTrack)
 	}
 
+	// game selected become the current track and close the track dropdown
 	const selectTrack = (m) => {
 		setCurTrack(m?.id - 1)
 		setIsOpenTrack(false)

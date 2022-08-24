@@ -6,8 +6,10 @@ import goldSilver from '/public/pokemon_gold_silver_crystal.jpg'
 import rubySapphire from '/public/pokemon_ruby_sapphire_emerald.webp'
 
 export default function Info({ musics, curTrack, isPlaying }) {
+	// image for the track
 	const [cover, setCover] = useState('')
 
+	// modify the cover according to the current track game
 	useEffect(() => {
 		if (
 			musics?.[curTrack]?.game === 'Red / Blue / Yellow' ||
