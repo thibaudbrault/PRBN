@@ -29,7 +29,7 @@
 <h2 id="roadmap">Roadmap</h2>
 
 ✅Listen to Gen 1, Gen 2 and Gen 3 soundtracks  
-✅Baiscs audio player functions : play / pause, next, previous, move 10 seconds forward / backward, shuffle  
+✅Basic audio player functions : play / pause, next, previous, move 10 seconds forward / backward, shuffle  
 ✅Use the slider to move forward and backward in the track  
 ✅Automatically goes to the next track and starts playing it when the current track is ended  
 ✅Multiple filter choice : listen to every tracks or select a game  
